@@ -25,9 +25,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_LocalRotation: {x: 2.22210292e-05, y: -.707106769, z: -.707106829, w: -2.20995335e-05}
-  m_LocalPosition: {x: -3.48786974, y: 0, z: 4.88089705}
-  m_LocalScale: {x: .890899777, y: .890899777, z: 1.04990637}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.65170622, y: 0, z: 4.2274189}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -43,8 +43,8 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: f8c4c197540f0d740bd9ed777cb3ac15, type: 2}
-  - {fileID: 2100000, guid: 116ddea0bfdbc3449879959fe13c1cbb, type: 2}
+  - {fileID: 2100000, guid: b5f117c3f8c0e0441b2437e45ac328ae, type: 2}
+  - {fileID: 2100000, guid: fb64d3e4044ebf64590b8cdbb09541dc, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -58,7 +58,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Mesh: {fileID: 4300000, guid: 316cce0ad73ed55408bc1edb219578e3, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 7296ed5b4f799084e9b32482312671c9, type: 3}
 --- !u!65 &6500000
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -69,8 +69,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: .587424219, y: .587424338, z: .664497018}
-  m_Center: {x: -2.87917341e-14, y: 4.28622769e-07, z: .332248449}
+  m_Size: {x: .583471298, y: 1.05427372, z: .692604601}
+  m_Center: {x: 0, y: .522928774, z: -.00623449683}
 --- !u!95 &9500000
 Animator:
   serializedVersion: 3
@@ -79,7 +79,7 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 316cce0ad73ed55408bc1edb219578e3, type: 3}
+  m_Avatar: {fileID: 9000000, guid: 7296ed5b4f799084e9b32482312671c9, type: 3}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0

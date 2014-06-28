@@ -10,11 +10,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2014
 		Month: 6
-		Day: 26
-		Hour: 22
-		Minute: 16
-		Second: 43
-		Millisecond: 939
+		Day: 28
+		Hour: 18
+		Minute: 34
+		Second: 28
+		Millisecond: 802
 	}
 	Creator: "FBX SDK/FBX Plugins version 2013.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -30,19 +30,19 @@ FBXHeaderExtension:  {
 			Comment: ""
 		}
 		Properties70:  {
-			P: "DocumentUrl", "KString", "Url", "", "\\FRESHNAS\Internal_Disk\3ds\CannonFodder\export\soldier-06.FBX"
-			P: "SrcDocumentUrl", "KString", "Url", "", "\\FRESHNAS\Internal_Disk\3ds\CannonFodder\export\soldier-06.FBX"
+			P: "DocumentUrl", "KString", "Url", "", "\\FRESHNAS\Internal_Disk\3ds\CannonFodder\export\Soldier.FBX"
+			P: "SrcDocumentUrl", "KString", "Url", "", "\\FRESHNAS\Internal_Disk\3ds\CannonFodder\export\Soldier.FBX"
 			P: "Original", "Compound", "", ""
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2013"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "27/06/2014 05:16:43.923"
-			P: "Original|FileName", "KString", "", "", "\\FRESHNAS\Internal_Disk\3ds\CannonFodder\export\soldier-06.FBX"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "28/06/2014 23:34:28.788"
+			P: "Original|FileName", "KString", "", "", "\\FRESHNAS\Internal_Disk\3ds\CannonFodder\export\Soldier.FBX"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2013"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "27/06/2014 05:16:43.923"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "28/06/2014 23:34:28.788"
 		}
 	}
 }
@@ -60,7 +60,7 @@ GlobalSettings:  {
 		P: "UnitScaleFactor", "double", "Number", "",2.54
 		P: "OriginalUnitScaleFactor", "double", "Number", "",2.54
 		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
-		P: "DefaultCamera", "KString", "", "", "Producer Left"
+		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
 		P: "TimeMode", "enum", "", "",6
 		P: "TimeSpanStart", "KTime", "Time", "",0
 		P: "TimeSpanStop", "KTime", "Time", "",153953860000
@@ -73,7 +73,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 342494200, "", "Scene" {
+	Document: 463508560, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -254,7 +254,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 79284240, "Geometry::", "Mesh" {
+	Geometry: 557473872, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.72156862745098,0.894117647058824,0.6
 		}
@@ -348,7 +348,7 @@ Objects:  {
 			MappingInformationType: "ByPolygon"
 			ReferenceInformationType: "IndexToDirect"
 			Materials: *354 {
-				a: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0
+				a: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0
 			} 
 		}
 		Layer: 0 {
@@ -367,119 +367,122 @@ Objects:  {
 			}
 		}
 	}
-	Model: 1750054688, "Model::Soldier", "Mesh" {
+	Model: 2117409312, "Model::Soldier", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
 			P: "RotationActive", "bool", "", "",1
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
-			P: "GeometricTranslation", "Vector3D", "Vector", "",-5.42104244232178e-005,-0.87090140581131,1.41834378242493
+			P: "GeometricTranslation", "Vector3D", "Vector", "",0,58.5214538574219,6.73297699904651e-006
+			P: "GeometricRotation", "Vector3D", "Vector", "",-90,-0,0
+			P: "GeometricScaling", "Vector3D", "Vector", "",0.882504761219025,0.882504761219025,0.882504761219025
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",-98.1884765625,5.06407451629639,66.0493011474609
-			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,-0,43.3554220224842
-			P: "Lcl Scaling", "Lcl Scaling", "", "A",0.0771038368269429,0.0771038368269429,0.0771038383245468
-			P: "MaxHandle", "int", "Integer", "UH",26
+			P: "Lcl Translation", "Lcl Translation", "", "A",-985.506652832031,0,554.407104492188
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",90.0000093346677,-0,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1.00000000000001,1.00000000000001
+			P: "MaxHandle", "int", "Integer", "UH",49
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 423799496, "Material::Material #59", "" {
+	Material: 554702216, "Material::SoldierSkin", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
 		Properties70:  {
 			P: "ShadingModel", "KString", "", "", "phong"
 			P: "EmissiveFactor", "double", "Number", "",0
-			P: "AmbientColor", "ColorRGB", "Color", "",0.325490206480026,0.0862745121121407,0.023529414087534
-			P: "DiffuseColor", "ColorRGB", "Color", "",0.325490206480026,0.0862745121121407,0.023529414087534
+			P: "AmbientColor", "ColorRGB", "Color", "",0.99215692281723,0.211764723062515,0
+			P: "DiffuseColor", "ColorRGB", "Color", "",0.99215692281723,0.211764723062515,0
 			P: "TransparentColor", "ColorRGB", "Color", "",1,1,1
-			P: "SpecularColor", "ColorRGB", "Color", "",0.658823549747467,0.321568638086319,0.172549024224281
-			P: "ShininessExponent", "double", "Number", "",2.0000000206574
-			P: "Emissive", "Vector3D", "Vector", "",0,0,0
-			P: "Ambient", "Vector3D", "Vector", "",0.325490206480026,0.0862745121121407,0.023529414087534
-			P: "Diffuse", "Vector3D", "Vector", "",0.325490206480026,0.0862745121121407,0.023529414087534
-			P: "Specular", "Vector3D", "Vector", "",0.658823549747467,0.321568638086319,0.172549024224281
-			P: "Shininess", "double", "Number", "",2.0000000206574
-			P: "Opacity", "double", "Number", "",1
-			P: "Reflectivity", "double", "Number", "",0
-		}
-	}
-	Material: 423795128, "Material::Material #60", "" {
-		Version: 102
-		ShadingModel: "phong"
-		MultiLayer: 0
-		Properties70:  {
-			P: "ShadingModel", "KString", "", "", "phong"
-			P: "EmissiveFactor", "double", "Number", "",0
-			P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
-			P: "DiffuseColor", "ColorRGB", "Color", "",0,0,0
-			P: "TransparentColor", "ColorRGB", "Color", "",1,1,1
-			P: "SpecularColor", "ColorRGB", "Color", "",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularColor", "ColorRGB", "Color", "",1,1,1
 			P: "SpecularFactor", "double", "Number", "",0
 			P: "ShininessExponent", "double", "Number", "",2.0000000206574
 			P: "Emissive", "Vector3D", "Vector", "",0,0,0
-			P: "Ambient", "Vector3D", "Vector", "",0,0,0
-			P: "Diffuse", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.99215692281723,0.211764723062515,0
+			P: "Diffuse", "Vector3D", "Vector", "",0.99215692281723,0.211764723062515,0
 			P: "Specular", "Vector3D", "Vector", "",0,0,0
 			P: "Shininess", "double", "Number", "",2.0000000206574
 			P: "Opacity", "double", "Number", "",1
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 423794504, "Material::Material #61", "" {
+	Material: 554695768, "Material::SoldierBoot", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
 		Properties70:  {
 			P: "ShadingModel", "KString", "", "", "phong"
 			P: "EmissiveFactor", "double", "Number", "",0
-			P: "AmbientColor", "ColorRGB", "Color", "",0.023529414087534,0.0862745121121407,0
-			P: "DiffuseColor", "ColorRGB", "Color", "",0.023529414087534,0.0862745121121407,0
-			P: "TransparentColor", "ColorRGB", "Color", "",1,1,1
-			P: "SpecularColor", "ColorRGB", "Color", "",0.899999976158142,0.899999976158142,0.899999976158142
-			P: "SpecularFactor", "double", "Number", "",0.5
-			P: "ShininessExponent", "double", "Number", "",3.99999966948168
-			P: "Emissive", "Vector3D", "Vector", "",0,0,0
-			P: "Ambient", "Vector3D", "Vector", "",0.023529414087534,0.0862745121121407,0
-			P: "Diffuse", "Vector3D", "Vector", "",0.023529414087534,0.0862745121121407,0
-			P: "Specular", "Vector3D", "Vector", "",0.449999988079071,0.449999988079071,0.449999988079071
-			P: "Shininess", "double", "Number", "",3.99999966948168
-			P: "Opacity", "double", "Number", "",1
-			P: "Reflectivity", "double", "Number", "",0
-		}
-	}
-	Material: 423797000, "Material::Material #62", "" {
-		Version: 102
-		ShadingModel: "phong"
-		MultiLayer: 0
-		Properties70:  {
-			P: "ShadingModel", "KString", "", "", "phong"
-			P: "EmissiveFactor", "double", "Number", "",0
-			P: "AmbientColor", "ColorRGB", "Color", "",0.00784313771873713,0.0392156876623631,0
-			P: "DiffuseColor", "ColorRGB", "Color", "",0.00784313771873713,0.0392156876623631,0
+			P: "AmbientColor", "ColorRGB", "Color", "",0,0.00784313771873713,0
+			P: "DiffuseColor", "ColorRGB", "Color", "",0,0.00784313771873713,0
 			P: "TransparentColor", "ColorRGB", "Color", "",1,1,1
 			P: "SpecularColor", "ColorRGB", "Color", "",0.899999976158142,0.899999976158142,0.899999976158142
 			P: "SpecularFactor", "double", "Number", "",0
-			P: "ShininessExponent", "double", "Number", "",3.99999966948168
+			P: "ShininessExponent", "double", "Number", "",2.0000000206574
 			P: "Emissive", "Vector3D", "Vector", "",0,0,0
-			P: "Ambient", "Vector3D", "Vector", "",0.00784313771873713,0.0392156876623631,0
-			P: "Diffuse", "Vector3D", "Vector", "",0.00784313771873713,0.0392156876623631,0
+			P: "Ambient", "Vector3D", "Vector", "",0,0.00784313771873713,0
+			P: "Diffuse", "Vector3D", "Vector", "",0,0.00784313771873713,0
 			P: "Specular", "Vector3D", "Vector", "",0,0,0
-			P: "Shininess", "double", "Number", "",3.99999966948168
+			P: "Shininess", "double", "Number", "",2.0000000206574
 			P: "Opacity", "double", "Number", "",1
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	AnimationStack: 78952336, "AnimStack::Take 001", "" {
+	Material: 554697848, "Material::SoldierHelmet", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "double", "Number", "",0
+			P: "AmbientColor", "ColorRGB", "Color", "",0.160784319043159,0.266666680574417,0.00784313771873713
+			P: "DiffuseColor", "ColorRGB", "Color", "",0.160784319043159,0.266666680574417,0.00784313771873713
+			P: "TransparentColor", "ColorRGB", "Color", "",1,1,1
+			P: "SpecularColor", "ColorRGB", "Color", "",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "double", "Number", "",0
+			P: "ShininessExponent", "double", "Number", "",1.07177346087579
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.160784319043159,0.266666680574417,0.00784313771873713
+			P: "Diffuse", "Vector3D", "Vector", "",0.160784319043159,0.266666680574417,0.00784313771873713
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",1.07177346087579
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 554699928, "Material::SoldierClothes", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "double", "Number", "",0
+			P: "AmbientColor", "ColorRGB", "Color", "",0.160784319043159,0.266666680574417,0.00784313771873713
+			P: "DiffuseColor", "ColorRGB", "Color", "",0.160784319043159,0.266666680574417,0.00784313771873713
+			P: "TransparentColor", "ColorRGB", "Color", "",1,1,1
+			P: "SpecularColor", "ColorRGB", "Color", "",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "double", "Number", "",0
+			P: "ShininessExponent", "double", "Number", "",1.07177346087579
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.160784319043159,0.266666680574417,0.00784313771873713
+			P: "Diffuse", "Vector3D", "Vector", "",0.160784319043159,0.266666680574417,0.00784313771873713
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",1.07177346087579
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	AnimationStack: 552020712, "AnimStack::Take 001", "" {
 		Properties70:  {
 			P: "LocalStop", "KTime", "Time", "",153953860000
 			P: "ReferenceStop", "KTime", "Time", "",153953860000
 		}
 	}
-	AnimationLayer: 493486272, "AnimLayer::BaseLayer", "" {
+	AnimationLayer: 540227336, "AnimLayer::BaseLayer", "" {
 	}
-	CollectionExclusive: 486514368, "DisplayLayer::ReferenceImagesAngles", "DisplayLayer" {
+	CollectionExclusive: 546415672, "DisplayLayer::ReferenceImagesAngles", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.6,0.894117647058824,0.83921568627451
 			P: "Show", "bool", "", "",1
@@ -495,25 +498,25 @@ Objects:  {
 Connections:  {
 	
 	;Model::Soldier, Model::RootNode
-	C: "OO",1750054688,0
+	C: "OO",2117409312,0
 	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",493486272,78952336
+	C: "OO",540227336,552020712
 	
 	;Geometry::, Model::Soldier
-	C: "OO",79284240,1750054688
+	C: "OO",557473872,2117409312
 	
-	;Material::Material #59, Model::Soldier
-	C: "OO",423799496,1750054688
+	;Material::SoldierSkin, Model::Soldier
+	C: "OO",554702216,2117409312
 	
-	;Material::Material #60, Model::Soldier
-	C: "OO",423795128,1750054688
+	;Material::SoldierBoot, Model::Soldier
+	C: "OO",554695768,2117409312
 	
-	;Material::Material #61, Model::Soldier
-	C: "OO",423794504,1750054688
+	;Material::SoldierHelmet, Model::Soldier
+	C: "OO",554697848,2117409312
 	
-	;Material::Material #62, Model::Soldier
-	C: "OO",423797000,1750054688
+	;Material::SoldierClothes, Model::Soldier
+	C: "OO",554699928,2117409312
 }
 ;Takes section
 ;----------------------------------------------------

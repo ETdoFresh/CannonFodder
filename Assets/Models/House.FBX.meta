@@ -1,13 +1,25 @@
 fileFormatVersion: 2
-guid: 316cce0ad73ed55408bc1edb219578e3
+guid: 66e61a804bfc2d84aaf184069486f9cb
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
     100000: //RootNode
+    100002: HouseBase
+    100004: HouseDoor
+    100006: HouseRoof
     400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Barrell
+    400002: HouseBase
+    400004: HouseDoor
+    400006: HouseRoof
+    2300000: HouseBase
+    2300002: HouseDoor
+    2300004: HouseRoof
+    3300000: HouseBase
+    3300002: HouseDoor
+    3300004: HouseRoof
+    4300000: HouseDoor
+    4300002: HouseRoof
+    4300004: HouseBase
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -28,7 +40,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .100000001
+    globalScale: .00999999978
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

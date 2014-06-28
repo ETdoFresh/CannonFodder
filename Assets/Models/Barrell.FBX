@@ -10,11 +10,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2014
 		Month: 6
-		Day: 26
-		Hour: 22
-		Minute: 22
-		Second: 29
-		Millisecond: 855
+		Day: 28
+		Hour: 18
+		Minute: 13
+		Second: 53
+		Millisecond: 474
 	}
 	Creator: "FBX SDK/FBX Plugins version 2013.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -30,19 +30,19 @@ FBXHeaderExtension:  {
 			Comment: ""
 		}
 		Properties70:  {
-			P: "DocumentUrl", "KString", "Url", "", "\\FRESHNAS\Internal_Disk\3ds\CannonFodder\export\barrell-00.FBX"
-			P: "SrcDocumentUrl", "KString", "Url", "", "\\FRESHNAS\Internal_Disk\3ds\CannonFodder\export\barrell-00.FBX"
+			P: "DocumentUrl", "KString", "Url", "", "\\FRESHNAS\Internal_Disk\3ds\CannonFodder\export\Barrell.FBX"
+			P: "SrcDocumentUrl", "KString", "Url", "", "\\FRESHNAS\Internal_Disk\3ds\CannonFodder\export\Barrell.FBX"
 			P: "Original", "Compound", "", ""
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2013"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "27/06/2014 05:22:29.851"
-			P: "Original|FileName", "KString", "", "", "\\FRESHNAS\Internal_Disk\3ds\CannonFodder\export\barrell-00.FBX"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "28/06/2014 23:13:53.457"
+			P: "Original|FileName", "KString", "", "", "\\FRESHNAS\Internal_Disk\3ds\CannonFodder\export\Barrell.FBX"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2013"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "27/06/2014 05:22:29.851"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "28/06/2014 23:13:53.457"
 		}
 	}
 }
@@ -73,7 +73,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 342493896, "", "Scene" {
+	Document: 463484696, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -93,7 +93,7 @@ References:  {
 
 Definitions:  {
 	Version: 100
-	Count: 16
+	Count: 8
 	ObjectType: "GlobalSettings" {
 		Count: 1
 	}
@@ -217,7 +217,7 @@ Definitions:  {
 		}
 	}
 	ObjectType: "Material" {
-		Count: 10
+		Count: 2
 		PropertyTemplate: "FbxSurfacePhong" {
 			Properties70:  {
 				P: "ShadingModel", "KString", "", "", "Phong"
@@ -254,7 +254,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 79283976, "Geometry::", "Mesh" {
+	Geometry: 557463576, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.105882352941176,0.694117647058824,0.345098039215686
 		}
@@ -322,22 +322,25 @@ Objects:  {
 			}
 		}
 	}
-	Model: 480648736, "Model::Barrell", "Mesh" {
+	Model: 1749520144, "Model::Barrell", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
 			P: "RotationActive", "bool", "", "",1
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "GeometricRotation", "Vector3D", "Vector", "",-90.769157409668,-0,0
+			P: "GeometricScaling", "Vector3D", "Vector", "",9.93270778656006,11.7054834365845,15.7405061721802
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",-30.979736328125,0,120.677490234375
-			P: "Lcl Scaling", "Lcl Scaling", "", "A",0.890899777412415,0.890899777412415,1.04990637302399
+			P: "Lcl Translation", "Lcl Translation", "", "A",-184.366821289063,0,1247.04431152344
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",90.0000093346674,-0,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,0.999999940395369,0.999999940395369
 			P: "MaxHandle", "int", "Integer", "UH",9
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 423806776, "Material::Material #37", "" {
+	Material: 554692856, "Material::BarrelSide", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -359,7 +362,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 423805320, "Material::Material #38", "" {
+	Material: 554690776, "Material::BarrelTop", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -381,135 +384,15 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 423802200, "Material::Material #36 Slot #3", "" {
-		Version: 102
-		ShadingModel: "phong"
-		MultiLayer: 0
-		Properties70:  {
-			P: "DiffuseColor", "ColorRGB", "Color", "",0,0,0
-			P: "Emissive", "Vector3D", "Vector", "",0,0,0
-			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
-			P: "Diffuse", "Vector3D", "Vector", "",0,0,0
-			P: "Specular", "Vector3D", "Vector", "",0.2,0.2,0.2
-			P: "Shininess", "double", "Number", "",20
-			P: "Opacity", "double", "Number", "",1
-			P: "Reflectivity", "double", "Number", "",0
-		}
-	}
-	Material: 423806360, "Material::Material #36 Slot #4", "" {
-		Version: 102
-		ShadingModel: "phong"
-		MultiLayer: 0
-		Properties70:  {
-			P: "DiffuseColor", "ColorRGB", "Color", "",0,0,0
-			P: "Emissive", "Vector3D", "Vector", "",0,0,0
-			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
-			P: "Diffuse", "Vector3D", "Vector", "",0,0,0
-			P: "Specular", "Vector3D", "Vector", "",0.2,0.2,0.2
-			P: "Shininess", "double", "Number", "",20
-			P: "Opacity", "double", "Number", "",1
-			P: "Reflectivity", "double", "Number", "",0
-		}
-	}
-	Material: 423807192, "Material::Material #36 Slot #5", "" {
-		Version: 102
-		ShadingModel: "phong"
-		MultiLayer: 0
-		Properties70:  {
-			P: "DiffuseColor", "ColorRGB", "Color", "",0,0,0
-			P: "Emissive", "Vector3D", "Vector", "",0,0,0
-			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
-			P: "Diffuse", "Vector3D", "Vector", "",0,0,0
-			P: "Specular", "Vector3D", "Vector", "",0.2,0.2,0.2
-			P: "Shininess", "double", "Number", "",20
-			P: "Opacity", "double", "Number", "",1
-			P: "Reflectivity", "double", "Number", "",0
-		}
-	}
-	Material: 423807608, "Material::Material #36 Slot #6", "" {
-		Version: 102
-		ShadingModel: "phong"
-		MultiLayer: 0
-		Properties70:  {
-			P: "DiffuseColor", "ColorRGB", "Color", "",0,0,0
-			P: "Emissive", "Vector3D", "Vector", "",0,0,0
-			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
-			P: "Diffuse", "Vector3D", "Vector", "",0,0,0
-			P: "Specular", "Vector3D", "Vector", "",0.2,0.2,0.2
-			P: "Shininess", "double", "Number", "",20
-			P: "Opacity", "double", "Number", "",1
-			P: "Reflectivity", "double", "Number", "",0
-		}
-	}
-	Material: 423801160, "Material::Material #36 Slot #7", "" {
-		Version: 102
-		ShadingModel: "phong"
-		MultiLayer: 0
-		Properties70:  {
-			P: "DiffuseColor", "ColorRGB", "Color", "",0,0,0
-			P: "Emissive", "Vector3D", "Vector", "",0,0,0
-			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
-			P: "Diffuse", "Vector3D", "Vector", "",0,0,0
-			P: "Specular", "Vector3D", "Vector", "",0.2,0.2,0.2
-			P: "Shininess", "double", "Number", "",20
-			P: "Opacity", "double", "Number", "",1
-			P: "Reflectivity", "double", "Number", "",0
-		}
-	}
-	Material: 423801576, "Material::Material #36 Slot #8", "" {
-		Version: 102
-		ShadingModel: "phong"
-		MultiLayer: 0
-		Properties70:  {
-			P: "DiffuseColor", "ColorRGB", "Color", "",0,0,0
-			P: "Emissive", "Vector3D", "Vector", "",0,0,0
-			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
-			P: "Diffuse", "Vector3D", "Vector", "",0,0,0
-			P: "Specular", "Vector3D", "Vector", "",0.2,0.2,0.2
-			P: "Shininess", "double", "Number", "",20
-			P: "Opacity", "double", "Number", "",1
-			P: "Reflectivity", "double", "Number", "",0
-		}
-	}
-	Material: 423811144, "Material::Material #36 Slot #9", "" {
-		Version: 102
-		ShadingModel: "phong"
-		MultiLayer: 0
-		Properties70:  {
-			P: "DiffuseColor", "ColorRGB", "Color", "",0,0,0
-			P: "Emissive", "Vector3D", "Vector", "",0,0,0
-			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
-			P: "Diffuse", "Vector3D", "Vector", "",0,0,0
-			P: "Specular", "Vector3D", "Vector", "",0.2,0.2,0.2
-			P: "Shininess", "double", "Number", "",20
-			P: "Opacity", "double", "Number", "",1
-			P: "Reflectivity", "double", "Number", "",0
-		}
-	}
-	Material: 423809896, "Material::Material #36 Slot #10", "" {
-		Version: 102
-		ShadingModel: "phong"
-		MultiLayer: 0
-		Properties70:  {
-			P: "DiffuseColor", "ColorRGB", "Color", "",0,0,0
-			P: "Emissive", "Vector3D", "Vector", "",0,0,0
-			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
-			P: "Diffuse", "Vector3D", "Vector", "",0,0,0
-			P: "Specular", "Vector3D", "Vector", "",0.2,0.2,0.2
-			P: "Shininess", "double", "Number", "",20
-			P: "Opacity", "double", "Number", "",1
-			P: "Reflectivity", "double", "Number", "",0
-		}
-	}
-	AnimationStack: 78692136, "AnimStack::Take 001", "" {
+	AnimationStack: 549687616, "AnimStack::Take 001", "" {
 		Properties70:  {
 			P: "LocalStop", "KTime", "Time", "",153953860000
 			P: "ReferenceStop", "KTime", "Time", "",153953860000
 		}
 	}
-	AnimationLayer: 482578832, "AnimLayer::BaseLayer", "" {
+	AnimationLayer: 540191976, "AnimLayer::BaseLayer", "" {
 	}
-	CollectionExclusive: 78061880, "DisplayLayer::ReferenceImagesAngles", "DisplayLayer" {
+	CollectionExclusive: 553604616, "DisplayLayer::ReferenceImagesAngles", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.6,0.894117647058824,0.83921568627451
 			P: "Show", "bool", "", "",1
@@ -525,43 +408,19 @@ Objects:  {
 Connections:  {
 	
 	;Model::Barrell, Model::RootNode
-	C: "OO",480648736,0
+	C: "OO",1749520144,0
 	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",482578832,78692136
+	C: "OO",540191976,549687616
 	
 	;Geometry::, Model::Barrell
-	C: "OO",79283976,480648736
+	C: "OO",557463576,1749520144
 	
-	;Material::Material #37, Model::Barrell
-	C: "OO",423806776,480648736
+	;Material::BarrelSide, Model::Barrell
+	C: "OO",554692856,1749520144
 	
-	;Material::Material #38, Model::Barrell
-	C: "OO",423805320,480648736
-	
-	;Material::Material #36 Slot #3, Model::Barrell
-	C: "OO",423802200,480648736
-	
-	;Material::Material #36 Slot #4, Model::Barrell
-	C: "OO",423806360,480648736
-	
-	;Material::Material #36 Slot #5, Model::Barrell
-	C: "OO",423807192,480648736
-	
-	;Material::Material #36 Slot #6, Model::Barrell
-	C: "OO",423807608,480648736
-	
-	;Material::Material #36 Slot #7, Model::Barrell
-	C: "OO",423801160,480648736
-	
-	;Material::Material #36 Slot #8, Model::Barrell
-	C: "OO",423801576,480648736
-	
-	;Material::Material #36 Slot #9, Model::Barrell
-	C: "OO",423811144,480648736
-	
-	;Material::Material #36 Slot #10, Model::Barrell
-	C: "OO",423809896,480648736
+	;Material::BarrelTop, Model::Barrell
+	C: "OO",554690776,1749520144
 }
 ;Takes section
 ;----------------------------------------------------

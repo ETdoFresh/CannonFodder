@@ -4,14 +4,17 @@ using System.Collections;
 public class Movement : MonoBehaviour
 {
     public GameObject Particle;
-    public Vector3 Destination;
-    public NavMeshAgent Agent;
+    
+    private Vector3 _destination;
+    private NavMeshAgent _agent;
+    private Animator _animator;
 
     // Use this for initialization
     void Start()
     {
-        Agent = GetComponent<NavMeshAgent>();
-        Agent.SetDestination(Destination);
+        _agent = GetComponent<NavMeshAgent>();
+        _agent.SetDestination(_destination);
+        _animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -24,15 +27,18 @@ public class Movement : MonoBehaviour
             if (Physics.Raycast(ray, out hit))
             {
                 Instantiate(Particle, hit.point, hit.transform.rotation);
-                Destination = hit.point;
-                Agent.SetDestination(Destination);
+                _destination = hit.point;
+                _agent.SetDestination(_destination);
             }
         }
 
         if (Input.GetKeyDown(KeyCode.S))
         {
-            Destination = transform.position;
-            Agent.SetDestination(Destination);
+            _destination = transform.position;
+            _agent.SetDestination(_destination);
         }
+
+        if (_animator != null)
+            _animator.SetFloat("Speed", _agent.velocity.magnitude / _agent.speed);
     }
 }

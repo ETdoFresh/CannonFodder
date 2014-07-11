@@ -32,11 +32,13 @@ public class Movement : MonoBehaviour
             }
         }
 
+        /*
         if (Input.GetKeyDown(KeyCode.S))
         {
             _destination = transform.position;
             _agent.SetDestination(_destination);
         }
+        */
 
         if (_animator != null)
             _animator.SetFloat("Speed", _agent.velocity.magnitude / _agent.speed);

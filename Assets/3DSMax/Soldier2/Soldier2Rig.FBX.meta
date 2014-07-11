@@ -1,130 +1,130 @@
 fileFormatVersion: 2
-guid: f5a50b8d0e176854aa18d5049c1b8863
+guid: c1b0f42068d89984c8989c726a7805be
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
     100000: //RootNode
-    100002: SoldierHead_A001
-    100004: SoldierHips_A001
-    100006: SoldierLArm1_A001
-    100008: SoldierLArm2_A001
-    100010: SoldierLArmCollarbone_A001
-    100012: SoldierLArmPalm_A001
-    100014: SoldierLLeg1_A001
-    100016: SoldierLLeg2_A001
-    100018: SoldierLLegAnkle_A001
-    100020: SoldierLLegDigit11_A001
-    100022: SoldierNeck1_A001
-    100024: SoldierNeck2_A001
-    100026: SoldierRArm1_A001
-    100028: SoldierRArm2_A001
-    100030: SoldierRArmCollarbone_A001
-    100032: SoldierRArmPalm_A001
-    100034: SoldierRibcage_A001
-    100036: SoldierRLeg1_A001
-    100038: SoldierRLeg2_A001
-    100040: SoldierRLegAnkle_A001
-    100042: SoldierRLegDigit11_A001
-    100044: SoldierSpine1_A001
-    100046: SoldierSpine2_A001
-    100048: SoldierSpine3_A001
+    100002: SoldierHead_A
+    100004: SoldierHips_A
+    100006: SoldierLArm1_A
+    100008: SoldierLArm2_A
+    100010: SoldierLArmCollarbone_A
+    100012: SoldierLArmPalm_A
+    100014: SoldierLLeg1_A
+    100016: SoldierLLeg2_A
+    100018: SoldierLLegAnkle_A
+    100020: SoldierLLegDigit11_A
+    100022: SoldierNeck1_A
+    100024: SoldierNeck2_A
+    100026: SoldierRArm1_A
+    100028: SoldierRArm2_A
+    100030: SoldierRArmCollarbone_A
+    100032: SoldierRArmPalm_A
+    100034: SoldierRibcage_A
+    100036: SoldierRLeg1_A
+    100038: SoldierRLeg2_A
+    100040: SoldierRLegAnkle_A
+    100042: SoldierRLegDigit11_A
+    100044: SoldierSpine1_A
+    100046: SoldierSpine2_A
+    100048: SoldierSpine3_A
     400000: //RootNode
-    400002: SoldierHead_A001
-    400004: SoldierHips_A001
-    400006: SoldierLArm1_A001
-    400008: SoldierLArm2_A001
-    400010: SoldierLArmCollarbone_A001
-    400012: SoldierLArmPalm_A001
-    400014: SoldierLLeg1_A001
-    400016: SoldierLLeg2_A001
-    400018: SoldierLLegAnkle_A001
-    400020: SoldierLLegDigit11_A001
-    400022: SoldierNeck1_A001
-    400024: SoldierNeck2_A001
-    400026: SoldierRArm1_A001
-    400028: SoldierRArm2_A001
-    400030: SoldierRArmCollarbone_A001
-    400032: SoldierRArmPalm_A001
-    400034: SoldierRibcage_A001
-    400036: SoldierRLeg1_A001
-    400038: SoldierRLeg2_A001
-    400040: SoldierRLegAnkle_A001
-    400042: SoldierRLegDigit11_A001
-    400044: SoldierSpine1_A001
-    400046: SoldierSpine2_A001
-    400048: SoldierSpine3_A001
-    2300000: SoldierHead_A001
-    2300002: SoldierHips_A001
-    2300004: SoldierLArm1_A001
-    2300006: SoldierLArm2_A001
-    2300008: SoldierLArmCollarbone_A001
-    2300010: SoldierLArmPalm_A001
-    2300012: SoldierLLeg1_A001
-    2300014: SoldierLLeg2_A001
-    2300016: SoldierLLegAnkle_A001
-    2300018: SoldierLLegDigit11_A001
-    2300020: SoldierNeck1_A001
-    2300022: SoldierNeck2_A001
-    2300024: SoldierRArm1_A001
-    2300026: SoldierRArm2_A001
-    2300028: SoldierRArmCollarbone_A001
-    2300030: SoldierRArmPalm_A001
-    2300032: SoldierRibcage_A001
-    2300034: SoldierRLeg1_A001
-    2300036: SoldierRLeg2_A001
-    2300038: SoldierRLegAnkle_A001
-    2300040: SoldierRLegDigit11_A001
-    2300042: SoldierSpine1_A001
-    2300044: SoldierSpine2_A001
-    2300046: SoldierSpine3_A001
-    3300000: SoldierHead_A001
-    3300002: SoldierHips_A001
-    3300004: SoldierLArm1_A001
-    3300006: SoldierLArm2_A001
-    3300008: SoldierLArmCollarbone_A001
-    3300010: SoldierLArmPalm_A001
-    3300012: SoldierLLeg1_A001
-    3300014: SoldierLLeg2_A001
-    3300016: SoldierLLegAnkle_A001
-    3300018: SoldierLLegDigit11_A001
-    3300020: SoldierNeck1_A001
-    3300022: SoldierNeck2_A001
-    3300024: SoldierRArm1_A001
-    3300026: SoldierRArm2_A001
-    3300028: SoldierRArmCollarbone_A001
-    3300030: SoldierRArmPalm_A001
-    3300032: SoldierRibcage_A001
-    3300034: SoldierRLeg1_A001
-    3300036: SoldierRLeg2_A001
-    3300038: SoldierRLegAnkle_A001
-    3300040: SoldierRLegDigit11_A001
-    3300042: SoldierSpine1_A001
-    3300044: SoldierSpine2_A001
-    3300046: SoldierSpine3_A001
-    4300000: SoldierHips_A001
-    4300002: SoldierLLeg1_A001
-    4300004: SoldierLLeg2_A001
-    4300006: SoldierLLegAnkle_A001
-    4300008: SoldierLLegDigit11_A001
-    4300010: SoldierRLeg1_A001
-    4300012: SoldierRLeg2_A001
-    4300014: SoldierRLegAnkle_A001
-    4300016: SoldierRLegDigit11_A001
-    4300018: SoldierSpine1_A001
-    4300020: SoldierSpine2_A001
-    4300022: SoldierSpine3_A001
-    4300024: SoldierRibcage_A001
-    4300026: SoldierLArmCollarbone_A001
-    4300028: SoldierLArm1_A001
-    4300030: SoldierLArm2_A001
-    4300032: SoldierLArmPalm_A001
-    4300034: SoldierRArmCollarbone_A001
-    4300036: SoldierRArm1_A001
-    4300038: SoldierRArm2_A001
-    4300040: SoldierRArmPalm_A001
-    4300042: SoldierNeck1_A001
-    4300044: SoldierNeck2_A001
-    4300046: SoldierHead_A001
+    400002: SoldierHead_A
+    400004: SoldierHips_A
+    400006: SoldierLArm1_A
+    400008: SoldierLArm2_A
+    400010: SoldierLArmCollarbone_A
+    400012: SoldierLArmPalm_A
+    400014: SoldierLLeg1_A
+    400016: SoldierLLeg2_A
+    400018: SoldierLLegAnkle_A
+    400020: SoldierLLegDigit11_A
+    400022: SoldierNeck1_A
+    400024: SoldierNeck2_A
+    400026: SoldierRArm1_A
+    400028: SoldierRArm2_A
+    400030: SoldierRArmCollarbone_A
+    400032: SoldierRArmPalm_A
+    400034: SoldierRibcage_A
+    400036: SoldierRLeg1_A
+    400038: SoldierRLeg2_A
+    400040: SoldierRLegAnkle_A
+    400042: SoldierRLegDigit11_A
+    400044: SoldierSpine1_A
+    400046: SoldierSpine2_A
+    400048: SoldierSpine3_A
+    2300000: SoldierHead_A
+    2300002: SoldierHips_A
+    2300004: SoldierLArm1_A
+    2300006: SoldierLArm2_A
+    2300008: SoldierLArmCollarbone_A
+    2300010: SoldierLArmPalm_A
+    2300012: SoldierLLeg1_A
+    2300014: SoldierLLeg2_A
+    2300016: SoldierLLegAnkle_A
+    2300018: SoldierLLegDigit11_A
+    2300020: SoldierNeck1_A
+    2300022: SoldierNeck2_A
+    2300024: SoldierRArm1_A
+    2300026: SoldierRArm2_A
+    2300028: SoldierRArmCollarbone_A
+    2300030: SoldierRArmPalm_A
+    2300032: SoldierRibcage_A
+    2300034: SoldierRLeg1_A
+    2300036: SoldierRLeg2_A
+    2300038: SoldierRLegAnkle_A
+    2300040: SoldierRLegDigit11_A
+    2300042: SoldierSpine1_A
+    2300044: SoldierSpine2_A
+    2300046: SoldierSpine3_A
+    3300000: SoldierHead_A
+    3300002: SoldierHips_A
+    3300004: SoldierLArm1_A
+    3300006: SoldierLArm2_A
+    3300008: SoldierLArmCollarbone_A
+    3300010: SoldierLArmPalm_A
+    3300012: SoldierLLeg1_A
+    3300014: SoldierLLeg2_A
+    3300016: SoldierLLegAnkle_A
+    3300018: SoldierLLegDigit11_A
+    3300020: SoldierNeck1_A
+    3300022: SoldierNeck2_A
+    3300024: SoldierRArm1_A
+    3300026: SoldierRArm2_A
+    3300028: SoldierRArmCollarbone_A
+    3300030: SoldierRArmPalm_A
+    3300032: SoldierRibcage_A
+    3300034: SoldierRLeg1_A
+    3300036: SoldierRLeg2_A
+    3300038: SoldierRLegAnkle_A
+    3300040: SoldierRLegDigit11_A
+    3300042: SoldierSpine1_A
+    3300044: SoldierSpine2_A
+    3300046: SoldierSpine3_A
+    4300000: SoldierHips_A
+    4300002: SoldierLLeg1_A
+    4300004: SoldierLLeg2_A
+    4300006: SoldierLLegAnkle_A
+    4300008: SoldierLLegDigit11_A
+    4300010: SoldierRLeg1_A
+    4300012: SoldierRLeg2_A
+    4300014: SoldierRLegAnkle_A
+    4300016: SoldierRLegDigit11_A
+    4300018: SoldierSpine1_A
+    4300020: SoldierSpine2_A
+    4300022: SoldierSpine3_A
+    4300024: SoldierRibcage_A
+    4300026: SoldierNeck1_A
+    4300028: SoldierNeck2_A
+    4300030: SoldierHead_A
+    4300032: SoldierRArmCollarbone_A
+    4300034: SoldierRArm1_A
+    4300036: SoldierRArm2_A
+    4300038: SoldierRArmPalm_A
+    4300040: SoldierLArmCollarbone_A
+    4300042: SoldierLArm1_A
+    4300044: SoldierLArm2_A
+    4300046: SoldierLArmPalm_A
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -167,7 +167,7 @@ ModelImporter:
   copyAvatar: 0
   humanDescription:
     human:
-    - boneName: SoldierHips_A001
+    - boneName: SoldierHips_A
       humanName: Hips
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -175,7 +175,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: SoldierLLeg1_A001
+    - boneName: SoldierLLeg1_A
       humanName: LeftUpperLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -183,7 +183,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: SoldierRLeg1_A001
+    - boneName: SoldierRLeg1_A
       humanName: RightUpperLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -191,7 +191,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: SoldierLLeg2_A001
+    - boneName: SoldierLLeg2_A
       humanName: LeftLowerLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -199,7 +199,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: SoldierRLeg2_A001
+    - boneName: SoldierRLeg2_A
       humanName: RightLowerLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -207,7 +207,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: SoldierLLegAnkle_A001
+    - boneName: SoldierLLegAnkle_A
       humanName: LeftFoot
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -215,7 +215,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: SoldierRLegAnkle_A001
+    - boneName: SoldierRLegAnkle_A
       humanName: RightFoot
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -223,7 +223,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: SoldierSpine2_A001
+    - boneName: SoldierSpine2_A
       humanName: Spine
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -231,7 +231,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: SoldierSpine3_A001
+    - boneName: SoldierSpine3_A
       humanName: Chest
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -239,7 +239,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: SoldierNeck1_A001
+    - boneName: SoldierNeck1_A
       humanName: Neck
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -247,7 +247,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: SoldierHead_A001
+    - boneName: SoldierHead_A
       humanName: Head
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -255,7 +255,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: SoldierLArmCollarbone_A001
+    - boneName: SoldierLArmCollarbone_A
       humanName: LeftShoulder
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -263,7 +263,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: SoldierRArmCollarbone_A001
+    - boneName: SoldierRArmCollarbone_A
       humanName: RightShoulder
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -271,7 +271,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: SoldierLArm1_A001
+    - boneName: SoldierLArm1_A
       humanName: LeftUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -279,7 +279,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: SoldierRArm1_A001
+    - boneName: SoldierRArm1_A
       humanName: RightUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -287,7 +287,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: SoldierLArm2_A001
+    - boneName: SoldierLArm2_A
       humanName: LeftLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -295,7 +295,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: SoldierRArm2_A001
+    - boneName: SoldierRArm2_A
       humanName: RightLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -303,7 +303,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: SoldierLArmPalm_A001
+    - boneName: SoldierLArmPalm_A
       humanName: LeftHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -311,7 +311,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: SoldierRArmPalm_A001
+    - boneName: SoldierRArmPalm_A
       humanName: RightHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -319,7 +319,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: SoldierLLegDigit11_A001
+    - boneName: SoldierLLegDigit11_A
       humanName: LeftToes
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -327,7 +327,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: SoldierRLegDigit11_A001
+    - boneName: SoldierRLegDigit11_A
       humanName: RightToes
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -337,129 +337,129 @@ ModelImporter:
         modified: 0
     skeleton:
     - name: Soldier2Rig(Clone)
-      position: {x: 8.58306848e-08, y: 0, z: .00152132986}
+      position: {x: -.00294521335, y: 0, z: -.0718322992}
       rotation: {x: 2.18556941e-08, y: 0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: SoldierHips_A001
-      position: {x: -9.00824091e-08, y: .0919058248, z: .00130299584}
-      rotation: {x: .5, y: -.499999911, z: -.50000006, w: .5}
+    - name: SoldierHips_A
+      position: {x: -2.06753612e-07, y: .330832601, z: .0718322769}
+      rotation: {x: .499999911, y: -.50000006, z: -.499999851, w: .500000179}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: SoldierLLeg1_A001
-      position: {x: -0, y: -8.64267324e-09, z: .0357776433}
-      rotation: {x: -.0592279695, y: .997668624, z: -.000818703498, w: .0338923335}
-      scale: {x: 1, y: .99999994, z: .99999994}
+    - name: SoldierLLeg1_A
+      position: {x: -0, y: -4.76837148e-09, z: .128795728}
+      rotation: {x: -.0592242219, y: .997668862, z: -.000818096218, w: .0338925049}
+      scale: {x: .99999994, y: .999999881, z: .99999994}
       transformModified: 1
-    - name: SoldierLLeg2_A001
-      position: {x: -.0400168262, y: -9.5367426e-08, z: -2.86102289e-08}
-      rotation: {x: 7.82398274e-05, y: .00141259062, z: .181680322, w: .983356655}
-      scale: {x: .999998093, y: 1.00000226, z: .999999762}
+    - name: SoldierLLeg2_A
+      position: {x: -.144056395, y: -3.48091106e-07, z: -1.90734859e-08}
+      rotation: {x: 7.90519116e-05, y: .00141241529, z: .181672737, w: .983358026}
+      scale: {x: .999998629, y: 1.00000262, z: 1.00000012}
       transformModified: 1
-    - name: SoldierLLegAnkle_A001
-      position: {x: -.0333099179, y: 5.96046412e-09, z: -1.43051144e-08}
-      rotation: {x: -.00290509011, y: .0323595293, z: -.364587486, w: .930602193}
-      scale: {x: .999997437, y: 1.00000203, z: 1.00000036}
+    - name: SoldierLLegAnkle_A
+      position: {x: -.119911775, y: 0, z: 0}
+      rotation: {x: -.0029137542, y: .0323535278, z: -.364744157, w: .930540979}
+      scale: {x: .999997377, y: 1.00000203, z: 1}
       transformModified: 1
-    - name: SoldierLLegDigit11_A001
-      position: {x: -.0222166851, y: .0044801617, z: -.00195612898}
-      rotation: {x: -8.20417156e-08, y: -2.34715472e-07, z: -.510183632, w: .86006552}
-      scale: {x: 1.00000036, y: 1.00000036, z: 1}
+    - name: SoldierLLegDigit11_A
+      position: {x: -.0799776837, y: .0161281209, z: -.00704182591}
+      rotation: {x: -2.84738621e-06, y: 5.0145577e-06, z: -.510035157, w: .860153556}
+      scale: {x: 1.00000012, y: 1, z: 1}
       transformModified: 1
-    - name: SoldierRLeg1_A001
-      position: {x: -0, y: 8.3446503e-09, z: -.0357776433}
-      rotation: {x: -.0592307486, y: .997668445, z: .000818216999, w: -.0338923931}
-      scale: {x: 1, y: 1, z: .999999881}
+    - name: SoldierRLeg1_A
+      position: {x: 3.81469718e-08, y: 1.43051144e-08, z: -.128795728}
+      rotation: {x: -.0592347011, y: .997669756, z: .000814154046, w: -.0338486061}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1.00000012}
       transformModified: 1
-    - name: SoldierRLeg2_A001
-      position: {x: -.0400168113, y: -1.001358e-07, z: 2.38418565e-08}
-      rotation: {x: -7.94429288e-05, y: -.00141243194, z: .181679696, w: .983356774}
-      scale: {x: 1.00000215, y: .999998331, z: 1}
+    - name: SoldierRLeg2_A
+      position: {x: -.144056305, y: -3.17096692e-07, z: 5.72204577e-08}
+      rotation: {x: -.000112111964, y: -.00132190634, z: .181688488, w: .983355284}
+      scale: {x: 1.00000215, y: .999998212, z: .999999702}
       transformModified: 1
-    - name: SoldierRLegAnkle_A001
-      position: {x: -.0333099291, y: 1.01327897e-08, z: -4.76837148e-09}
-      rotation: {x: .00289571914, y: -.0323720984, z: -.364423871, w: .930665851}
-      scale: {x: 1.00000226, y: .999997079, z: .999999821}
+    - name: SoldierRLegAnkle_A
+      position: {x: -.119912542, y: 1.90734859e-08, z: 0}
+      rotation: {x: .00294814771, y: -.0323988721, z: -.364589065, w: .930600047}
+      scale: {x: 1.00000226, y: .99999696, z: .99999994}
       transformModified: 1
-    - name: SoldierRLegDigit11_A001
-      position: {x: -.0222166851, y: .00448015938, z: .00195611943}
-      rotation: {x: -6.55923532e-06, y: 1.13778724e-05, z: -.51033181, w: .859977603}
-      scale: {x: 1, y: .99999994, z: 1}
+    - name: SoldierRLegDigit11_A
+      position: {x: -.0799777582, y: .0161281638, z: .00704183569}
+      rotation: {x: 3.46188926e-08, y: -1.53164113e-08, z: -.510183752, w: .86006546}
+      scale: {x: 1.00000036, y: 1.00000012, z: 1.00000012}
       transformModified: 1
-    - name: SoldierSpine1_A001
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 4.25546388e-15, y: 3.02368895e-29, z: 7.10542736e-15, w: 1}
+    - name: SoldierSpine1_A
+      position: {x: 3.81469718e-08, y: 4.76837148e-09, z: 0}
+      rotation: {x: 4.66223875e-16, y: 7.10542736e-15, z: 1.42108547e-14, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: SoldierSpine2_A001
-      position: {x: -.0232433323, y: -1.13248824e-08, z: -2.84217088e-16}
-      rotation: {x: 4.25546388e-15, y: 3.02368895e-29, z: 7.10542736e-15, w: 1}
+    - name: SoldierSpine2_A
+      position: {x: -.0836735144, y: -4.76837148e-09, z: 2.98023217e-10}
+      rotation: {x: 4.66223875e-16, y: 7.10542736e-15, z: 1.42108547e-14, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: SoldierSpine3_A001
-      position: {x: -.0232433323, y: -1.13248824e-08, z: 0}
-      rotation: {x: 4.25546388e-15, y: 3.02368895e-29, z: 7.10542736e-15, w: 1}
+    - name: SoldierSpine3_A
+      position: {x: -.0836734772, y: 4.76837148e-09, z: -3.81469718e-08}
+      rotation: {x: 4.66223875e-16, y: 7.10542736e-15, z: 1.42108547e-14, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: SoldierRibcage_A001
-      position: {x: -.0232433211, y: -1.07288356e-08, z: 0}
-      rotation: {x: 4.25546388e-15, y: 3.02368895e-29, z: 7.10542736e-15, w: 1}
+    - name: SoldierRibcage_A
+      position: {x: -.0836735517, y: 4.76837148e-09, z: 0}
+      rotation: {x: 4.66223875e-16, y: 7.10542736e-15, z: 1.42108547e-14, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: SoldierLArmCollarbone_A001
-      position: {x: -1.90734859e-08, y: .0324508958, z: .0186736025}
-      rotation: {x: .130839035, y: .668289661, z: .0809530839, w: .727816463}
-      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+    - name: SoldierLArmCollarbone_A
+      position: {x: 3.81469718e-08, y: .116819821, z: .0672229007}
+      rotation: {x: .13083899, y: .668289721, z: .0809526891, w: .727816403}
+      scale: {x: .999999881, y: 1, z: 1}
       transformModified: 1
-    - name: SoldierLArm1_A001
-      position: {x: -.0508960485, y: 7.15255721e-09, z: 1.90734859e-08}
-      rotation: {x: -.0124349697, y: .0783942118, z: -.141137689, w: .986802876}
-      scale: {x: 1, y: .999999821, z: .99999994}
+    - name: SoldierLArm1_A
+      position: {x: -.183220476, y: 9.53674295e-09, z: 0}
+      rotation: {x: -.0124347312, y: .078393735, z: -.141137615, w: .986802936}
+      scale: {x: .99999994, y: 1.00000012, z: 1.00000012}
       transformModified: 1
-    - name: SoldierLArm2_A001
-      position: {x: -.027293371, y: 0, z: 0}
-      rotation: {x: -.0282504391, y: -.035854049, z: -.0420882441, w: .998070717}
-      scale: {x: 1.00000024, y: .99999994, z: 1}
+    - name: SoldierLArm2_A
+      position: {x: -.0982532874, y: 1.66893006e-08, z: 0}
+      rotation: {x: -.0282504931, y: -.0358542278, z: -.0420880578, w: .998070657}
+      scale: {x: 1.00000036, y: 1, z: 1}
       transformModified: 1
-    - name: SoldierLArmPalm_A001
-      position: {x: -.0489943027, y: -4.76837148e-09, z: -1.90734859e-08}
-      rotation: {x: .0127444947, y: .0168767944, z: .0507589839, w: .998486996}
-      scale: {x: .999999702, y: .99999994, z: .999999881}
+    - name: SoldierLArmPalm_A
+      position: {x: -.176374272, y: -3.81469718e-08, z: 1.52587887e-07}
+      rotation: {x: .012744762, y: .0168771073, z: .0507590361, w: .998486996}
+      scale: {x: 1.00000012, y: .999999642, z: 1}
       transformModified: 1
-    - name: SoldierNeck1_A001
-      position: {x: -0, y: 2.98023217e-10, z: 0}
-      rotation: {x: 8.63672796e-08, y: 6.73721301e-09, z: .0777703002, w: .996971309}
+    - name: SoldierNeck1_A
+      position: {x: 3.81469718e-08, y: 0, z: 3.81469718e-08}
+      rotation: {x: 1.18080465e-07, y: -2.29931842e-07, z: .0777700618, w: .996971309}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: SoldierNeck2_A001
-      position: {x: -.0327825733, y: 2.38418574e-09, z: 5.68434176e-16}
-      rotation: {x: 1.59872116e-14, y: -3.55271368e-15, z: 5.67979852e-29, w: 1}
+    - name: SoldierNeck2_A
+      position: {x: -.118013874, y: 3.81469718e-08, z: 0}
+      rotation: {x: -8.88178335e-15, y: 1.4210853e-14, z: 1.26217721e-28, w: 1}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: SoldierHead_A
+      position: {x: -.118013762, y: 1.90734859e-08, z: 0}
+      rotation: {x: -2.19154657e-07, y: 2.56238309e-07, z: -.0777700618, w: .996971309}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: SoldierHead_A001
-      position: {x: -.0327826105, y: 9.53674295e-09, z: 0}
-      rotation: {x: -4.69784247e-08, y: -4.01795539e-08, z: -.0777702481, w: .996971309}
-      scale: {x: .99999994, y: .99999994, z: 1}
-      transformModified: 1
-    - name: SoldierRArmCollarbone_A001
-      position: {x: -0, y: .0324509069, z: -.0186735895}
-      rotation: {x: -.130838826, y: -.668290079, z: .0809525847, w: .727816164}
-      scale: {x: .999999821, y: 1, z: 1.00000012}
-      transformModified: 1
-    - name: SoldierRArm1_A001
-      position: {x: -.0508960709, y: -4.76837148e-09, z: 5.72204577e-08}
-      rotation: {x: .0124349622, y: -.07839223, z: -.141138539, w: .986802936}
-      scale: {x: .999999881, y: 1, z: .999999762}
-      transformModified: 1
-    - name: SoldierRArm2_A001
-      position: {x: -.0272933915, y: -4.76837148e-09, z: -7.62939436e-08}
-      rotation: {x: .0282500386, y: .0358530991, z: -.0420866981, w: .998070776}
-      scale: {x: 1.00000048, y: 1, z: 1.00000024}
-      transformModified: 1
-    - name: SoldierRArmPalm_A001
-      position: {x: -.0489942916, y: 1.78813924e-08, z: 0}
-      rotation: {x: -.0127448523, y: -.0168768708, z: .050758902, w: .998486996}
+    - name: SoldierRArmCollarbone_A
+      position: {x: 3.81469718e-08, y: .116819777, z: -.0672229752}
+      rotation: {x: -.130839273, y: -.66828984, z: .0809525177, w: .727816224}
       scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: SoldierRArm1_A
+      position: {x: -.183220387, y: 9.53674295e-09, z: 0}
+      rotation: {x: .0124344844, y: -.0783932135, z: -.141138583, w: .986802816}
+      scale: {x: .999999762, y: .999999702, z: .999999821}
+      transformModified: 1
+    - name: SoldierRArm2_A
+      position: {x: -.0982532278, y: -1.43051144e-08, z: -7.62939436e-08}
+      rotation: {x: .0282502957, y: .0358538292, z: -.0420872644, w: .998070717}
+      scale: {x: 1.00000012, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: SoldierRArmPalm_A
+      position: {x: -.176374182, y: -1.90734859e-08, z: -1.14440915e-07}
+      rotation: {x: -.0127448682, y: -.016876895, z: .0507589281, w: .998486996}
+      scale: {x: .999999821, y: 1, z: 1}
       transformModified: 1
     armTwist: .5
     foreArmTwist: .5

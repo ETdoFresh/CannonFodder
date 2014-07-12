@@ -3,14 +3,10 @@ using System.Collections;
 
 public class Destroy : MonoBehaviour
 {
+    public float DestroyTime = 1f;
+
     void Awake()
     {
-        Destroy(gameObject, 1);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        Destroy(gameObject, DestroyTime);
     }
 }

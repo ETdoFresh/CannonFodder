@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 262aee4404802f145809b551c5bddb9d
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: SoldierHead_A
+    100004: SoldierHips_A
+    100006: SoldierLArm1_A
+    100008: SoldierLArm2_A
+    100010: SoldierLArmCollarbone_A
+    100012: SoldierLArmPalm_A
+    100014: SoldierLLeg1_A
+    100016: SoldierLLeg2_A
+    100018: SoldierLLegAnkle_A
+    100020: SoldierLLegDigit11_A
+    100022: SoldierNeck1_A
+    100024: SoldierNeck2_A
+    100026: SoldierRArm1_A
+    100028: SoldierRArm2_A
+    100030: SoldierRArmCollarbone_A
+    100032: SoldierRArmPalm_A
+    100034: SoldierRibcage_A
+    100036: SoldierRLeg1_A
+    100038: SoldierRLeg2_A
+    100040: SoldierRLegAnkle_A
+    100042: SoldierRLegDigit11_A
+    100044: SoldierSpine1_A
+    100046: SoldierSpine2_A
+    100048: SoldierSpine3_A
+    400000: //RootNode
+    400002: SoldierHead_A
+    400004: SoldierHips_A
+    400006: SoldierLArm1_A
+    400008: SoldierLArm2_A
+    400010: SoldierLArmCollarbone_A
+    400012: SoldierLArmPalm_A
+    400014: SoldierLLeg1_A
+    400016: SoldierLLeg2_A
+    400018: SoldierLLegAnkle_A
+    400020: SoldierLLegDigit11_A
+    400022: SoldierNeck1_A
+    400024: SoldierNeck2_A
+    400026: SoldierRArm1_A
+    400028: SoldierRArm2_A
+    400030: SoldierRArmCollarbone_A
+    400032: SoldierRArmPalm_A
+    400034: SoldierRibcage_A
+    400036: SoldierRLeg1_A
+    400038: SoldierRLeg2_A
+    400040: SoldierRLegAnkle_A
+    400042: SoldierRLegDigit11_A
+    400044: SoldierSpine1_A
+    400046: SoldierSpine2_A
+    400048: SoldierSpine3_A
+    7400000: Crouch
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Crouch
+      takeName: Soldier2 - 06 - Animations
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SoldierHips_A
+        weight: 1
+      - path: SoldierHips_A/SoldierLLeg1_A
+        weight: 1
+      - path: SoldierHips_A/SoldierLLeg1_A/SoldierLLeg2_A
+        weight: 1
+      - path: SoldierHips_A/SoldierLLeg1_A/SoldierLLeg2_A/SoldierLLegAnkle_A
+        weight: 1
+      - path: SoldierHips_A/SoldierLLeg1_A/SoldierLLeg2_A/SoldierLLegAnkle_A/SoldierLLegDigit11_A
+        weight: 1
+      - path: SoldierHips_A/SoldierRLeg1_A
+        weight: 1
+      - path: SoldierHips_A/SoldierRLeg1_A/SoldierRLeg2_A
+        weight: 1
+      - path: SoldierHips_A/SoldierRLeg1_A/SoldierRLeg2_A/SoldierRLegAnkle_A
+        weight: 1
+      - path: SoldierHips_A/SoldierRLeg1_A/SoldierRLeg2_A/SoldierRLegAnkle_A/SoldierRLegDigit11_A
+        weight: 1
+      - path: SoldierHips_A/SoldierSpine1_A
+        weight: 1
+      - path: SoldierHips_A/SoldierSpine1_A/SoldierSpine2_A
+        weight: 1
+      - path: SoldierHips_A/SoldierSpine1_A/SoldierSpine2_A/SoldierSpine3_A
+        weight: 1
+      - path: SoldierHips_A/SoldierSpine1_A/SoldierSpine2_A/SoldierSpine3_A/SoldierRibcage_A
+        weight: 1
+      - path: SoldierHips_A/SoldierSpine1_A/SoldierSpine2_A/SoldierSpine3_A/SoldierRibcage_A/SoldierLArmCollarbone_A
+        weight: 1
+      - path: SoldierHips_A/SoldierSpine1_A/SoldierSpine2_A/SoldierSpine3_A/SoldierRibcage_A/SoldierLArmCollarbone_A/SoldierLArm1_A
+        weight: 1
+      - path: SoldierHips_A/SoldierSpine1_A/SoldierSpine2_A/SoldierSpine3_A/SoldierRibcage_A/SoldierLArmCollarbone_A/SoldierLArm1_A/SoldierLArm2_A
+        weight: 1
+      - path: SoldierHips_A/SoldierSpine1_A/SoldierSpine2_A/SoldierSpine3_A/SoldierRibcage_A/SoldierLArmCollarbone_A/SoldierLArm1_A/SoldierLArm2_A/SoldierLArmPalm_A
+        weight: 1
+      - path: SoldierHips_A/SoldierSpine1_A/SoldierSpine2_A/SoldierSpine3_A/SoldierRibcage_A/SoldierNeck1_A
+        weight: 1
+      - path: SoldierHips_A/SoldierSpine1_A/SoldierSpine2_A/SoldierSpine3_A/SoldierRibcage_A/SoldierNeck1_A/SoldierNeck2_A
+        weight: 1
+      - path: SoldierHips_A/SoldierSpine1_A/SoldierSpine2_A/SoldierSpine3_A/SoldierRibcage_A/SoldierNeck1_A/SoldierNeck2_A/SoldierHead_A
+        weight: 1
+      - path: SoldierHips_A/SoldierSpine1_A/SoldierSpine2_A/SoldierSpine3_A/SoldierRibcage_A/SoldierRArmCollarbone_A
+        weight: 1
+      - path: SoldierHips_A/SoldierSpine1_A/SoldierSpine2_A/SoldierSpine3_A/SoldierRibcage_A/SoldierRArmCollarbone_A/SoldierRArm1_A
+        weight: 1
+      - path: SoldierHips_A/SoldierSpine1_A/SoldierSpine2_A/SoldierSpine3_A/SoldierRibcage_A/SoldierRArmCollarbone_A/SoldierRArm1_A/SoldierRArm2_A
+        weight: 1
+      - path: SoldierHips_A/SoldierSpine1_A/SoldierSpine2_A/SoldierSpine3_A/SoldierRibcage_A/SoldierRArmCollarbone_A/SoldierRArm1_A/SoldierRArm2_A/SoldierRArmPalm_A
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human:
+    - boneName: SoldierHips_A
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SoldierLLeg1_A
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SoldierRLeg1_A
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SoldierLLeg2_A
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SoldierRLeg2_A
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SoldierLLegAnkle_A
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SoldierRLegAnkle_A
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SoldierSpine2_A
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SoldierSpine3_A
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SoldierNeck1_A
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SoldierHead_A
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SoldierLArmCollarbone_A
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SoldierRArmCollarbone_A
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SoldierLArm1_A
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SoldierRArm1_A
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SoldierLArm2_A
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SoldierRArm2_A
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SoldierLArmPalm_A
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SoldierRArmPalm_A
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SoldierLLegDigit11_A
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SoldierRLegDigit11_A
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Soldier2Rig(Clone)
+      position: {x: -.00294521335, y: 0, z: -.0718322992}
+      rotation: {x: 2.18556941e-08, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SoldierHips_A
+      position: {x: -2.06753612e-07, y: .330832601, z: .0718322769}
+      rotation: {x: .499999911, y: -.50000006, z: -.499999851, w: .500000179}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SoldierLLeg1_A
+      position: {x: -0, y: -4.76837148e-09, z: .128795728}
+      rotation: {x: -.0592242219, y: .997668862, z: -.000818096218, w: .0338925049}
+      scale: {x: .99999994, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: SoldierLLeg2_A
+      position: {x: -.144056395, y: -3.48091106e-07, z: -1.90734859e-08}
+      rotation: {x: 7.90519116e-05, y: .00141241529, z: .181672737, w: .983358026}
+      scale: {x: .999998629, y: 1.00000262, z: 1.00000012}
+      transformModified: 1
+    - name: SoldierLLegAnkle_A
+      position: {x: -.119911775, y: 0, z: 0}
+      rotation: {x: -.0029137542, y: .0323535278, z: -.364744157, w: .930540979}
+      scale: {x: .999997377, y: 1.00000203, z: 1}
+      transformModified: 1
+    - name: SoldierLLegDigit11_A
+      position: {x: -.0799776837, y: .0161281209, z: -.00704182591}
+      rotation: {x: -2.84738621e-06, y: 5.0145577e-06, z: -.510035157, w: .860153556}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: SoldierRLeg1_A
+      position: {x: 3.81469718e-08, y: 1.43051144e-08, z: -.128795728}
+      rotation: {x: -.0592347011, y: .997669756, z: .000814154046, w: -.0338486061}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: SoldierRLeg2_A
+      position: {x: -.144056305, y: -3.17096692e-07, z: 5.72204577e-08}
+      rotation: {x: -.000112111964, y: -.00132190634, z: .181688488, w: .983355284}
+      scale: {x: 1.00000215, y: .999998212, z: .999999702}
+      transformModified: 1
+    - name: SoldierRLegAnkle_A
+      position: {x: -.119912542, y: 1.90734859e-08, z: 0}
+      rotation: {x: .00294814771, y: -.0323988721, z: -.364589065, w: .930600047}
+      scale: {x: 1.00000226, y: .99999696, z: .99999994}
+      transformModified: 1
+    - name: SoldierRLegDigit11_A
+      position: {x: -.0799777582, y: .0161281638, z: .00704183569}
+      rotation: {x: 3.46188926e-08, y: -1.53164113e-08, z: -.510183752, w: .86006546}
+      scale: {x: 1.00000036, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: SoldierSpine1_A
+      position: {x: 3.81469718e-08, y: 4.76837148e-09, z: 0}
+      rotation: {x: 4.66223875e-16, y: 7.10542736e-15, z: 1.42108547e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SoldierSpine2_A
+      position: {x: -.0836735144, y: -4.76837148e-09, z: 2.98023217e-10}
+      rotation: {x: 4.66223875e-16, y: 7.10542736e-15, z: 1.42108547e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SoldierSpine3_A
+      position: {x: -.0836734772, y: 4.76837148e-09, z: -3.81469718e-08}
+      rotation: {x: 4.66223875e-16, y: 7.10542736e-15, z: 1.42108547e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SoldierRibcage_A
+      position: {x: -.0836735517, y: 4.76837148e-09, z: 0}
+      rotation: {x: 4.66223875e-16, y: 7.10542736e-15, z: 1.42108547e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SoldierLArmCollarbone_A
+      position: {x: 3.81469718e-08, y: .116819821, z: .0672229007}
+      rotation: {x: .13083899, y: .668289721, z: .0809526891, w: .727816403}
+      scale: {x: .999999881, y: 1, z: 1}
+      transformModified: 1
+    - name: SoldierLArm1_A
+      position: {x: -.183220476, y: 9.53674295e-09, z: 0}
+      rotation: {x: -.0124347312, y: .078393735, z: -.141137615, w: .986802936}
+      scale: {x: .99999994, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: SoldierLArm2_A
+      position: {x: -.0982532874, y: 1.66893006e-08, z: 0}
+      rotation: {x: -.0282504931, y: -.0358542278, z: -.0420880578, w: .998070657}
+      scale: {x: 1.00000036, y: 1, z: 1}
+      transformModified: 1
+    - name: SoldierLArmPalm_A
+      position: {x: -.176374272, y: -3.81469718e-08, z: 1.52587887e-07}
+      rotation: {x: .012744762, y: .0168771073, z: .0507590361, w: .998486996}
+      scale: {x: 1.00000012, y: .999999642, z: 1}
+      transformModified: 1
+    - name: SoldierNeck1_A
+      position: {x: 3.81469718e-08, y: 0, z: 3.81469718e-08}
+      rotation: {x: 1.18080465e-07, y: -2.29931842e-07, z: .0777700618, w: .996971309}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SoldierNeck2_A
+      position: {x: -.118013874, y: 3.81469718e-08, z: 0}
+      rotation: {x: -8.88178335e-15, y: 1.4210853e-14, z: 1.26217721e-28, w: 1}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: SoldierHead_A
+      position: {x: -.118013762, y: 1.90734859e-08, z: 0}
+      rotation: {x: -2.19154657e-07, y: 2.56238309e-07, z: -.0777700618, w: .996971309}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SoldierRArmCollarbone_A
+      position: {x: 3.81469718e-08, y: .116819777, z: -.0672229752}
+      rotation: {x: -.130839273, y: -.66828984, z: .0809525177, w: .727816224}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: SoldierRArm1_A
+      position: {x: -.183220387, y: 9.53674295e-09, z: 0}
+      rotation: {x: .0124344844, y: -.0783932135, z: -.141138583, w: .986802816}
+      scale: {x: .999999762, y: .999999702, z: .999999821}
+      transformModified: 1
+    - name: SoldierRArm2_A
+      position: {x: -.0982532278, y: -1.43051144e-08, z: -7.62939436e-08}
+      rotation: {x: .0282502957, y: .0358538292, z: -.0420872644, w: .998070717}
+      scale: {x: 1.00000012, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: SoldierRArmPalm_A
+      position: {x: -.176374182, y: -1.90734859e-08, z: -1.14440915e-07}
+      rotation: {x: -.0127448682, y: -.016876895, z: .0507589281, w: .998486996}
+      scale: {x: .999999821, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: c1b0f42068d89984c8989c726a7805be,
+    type: 3}
+  animationType: 3
+  additionalBone: 0
+  userData: 

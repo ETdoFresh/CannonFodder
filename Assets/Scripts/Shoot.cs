@@ -7,6 +7,7 @@ public class Shoot : MonoBehaviour
     private Animator _animator;
     public float ShootRate = 0.25f;
     private float _lastShootTime = 99f;
+    public bool IsSwimming = false;
 
     void Start()
     {
@@ -17,8 +18,9 @@ public class Shoot : MonoBehaviour
     void Update()
     {
         _lastShootTime += Time.deltaTime;
+        var isShooting = Input.GetButton("Fire2") && !IsSwimming;
 
-        if (Input.GetButton("Fire2"))
+        if (isShooting)
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
@@ -41,7 +43,7 @@ public class Shoot : MonoBehaviour
 
         if (_animator != null)
         {
-            if (Input.GetButton("Fire2"))
+            if (isShooting)
                 _animator.SetBool("IsShooting", true);
             else
                 _animator.SetBool("IsShooting", false);

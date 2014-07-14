@@ -19,7 +19,7 @@ public class WaterScript : MonoBehaviour {
         if (animator)
             animator.SetBool("InWater", true);
 
-        var shoot = other.gameObject.GetComponent<Shoot>();
+        var shoot = other.gameObject.GetComponent<ShootScript>();
         if (shoot)
             shoot.IsSwimming = true;
     }
@@ -30,7 +30,7 @@ public class WaterScript : MonoBehaviour {
         if (animator)
             animator.SetBool("InWater", false);
 
-        var shoot = other.gameObject.GetComponent<Shoot>();
+        var shoot = other.gameObject.GetComponent<ShootScript>();
         if (shoot)
             shoot.IsSwimming = false;
     }

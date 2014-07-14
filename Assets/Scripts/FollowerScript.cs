@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Follower : MonoBehaviour {
+public class FollowerScript : MonoBehaviour {
 
     public GameObject Destination;
 

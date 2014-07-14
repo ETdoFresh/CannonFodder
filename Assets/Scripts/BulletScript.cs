@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Bullet : MonoBehaviour
+public class BulletScript : MonoBehaviour
 {
     public float LifeTime = 1f;
     public float BulletVelocity = 100f;
@@ -22,10 +22,10 @@ public class Bullet : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        OnBulletContact();
+        OnBulletContact(collision);
     }
 
-    void OnBulletContact()
+    void OnBulletContact(Collision collision)
     {
         Destroy(this.gameObject);
         if (BulletExplosion != null)

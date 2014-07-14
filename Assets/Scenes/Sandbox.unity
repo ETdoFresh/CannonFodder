@@ -6370,9 +6370,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 1674884581}
   - 54: {fileID: 1674884582}
+  - 114: {fileID: 1674884583}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6407,6 +6408,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1674884583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1674884580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688ec663169c593499b99aa259f66504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Replacement: {fileID: 100000, guid: 2aa2f11d17d7c4e4891d208e9c1aa004, type: 2}
 --- !u!1 &1675198511
 GameObject:
   m_ObjectHideFlags: 0
@@ -7039,9 +7052,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 1963848392}
   - 54: {fileID: 1963848393}
+  - 114: {fileID: 1963848394}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7075,6 +7089,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1963848394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1963848391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688ec663169c593499b99aa259f66504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Replacement: {fileID: 100000, guid: 2aa2f11d17d7c4e4891d208e9c1aa004, type: 2}
 --- !u!1 &1978607973
 GameObject:
   m_ObjectHideFlags: 0

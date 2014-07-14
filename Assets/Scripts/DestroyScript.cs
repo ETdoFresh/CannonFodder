@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Destroy : MonoBehaviour
+public class DestroyScript : MonoBehaviour
 {
     public float DestroyTime = 1f;
 

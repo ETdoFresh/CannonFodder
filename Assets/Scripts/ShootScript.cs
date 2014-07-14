@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Shoot : MonoBehaviour
+public class ShootScript : MonoBehaviour
 {
     public GameObject BulletObject;
     private Animator _animator;

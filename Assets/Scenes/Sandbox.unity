@@ -1791,6 +1791,10 @@ Prefab:
       propertyPath: m_Mass
       value: 70
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 90c6bf41fa13aea49b35615090813cc7, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 90c6bf41fa13aea49b35615090813cc7, type: 2}
   m_RootGameObject: {fileID: 1522667462}
@@ -5203,14 +5207,16 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1421401495}
   m_GameObject: {fileID: 1414581427}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 695cd9ac49fd03748b2641ae007d907a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   BulletObject: {fileID: 100000, guid: eae982003cef71e4ca2e129d70c10906, type: 2}
+  GrenadeObject: {fileID: 0}
   ShootRate: .25
   IsSwimming: 0
+  GrenadeHeight: 50
 --- !u!114 &1414581431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5329,6 +5335,10 @@ Prefab:
     - target: {fileID: 5400000, guid: 90c6bf41fa13aea49b35615090813cc7, type: 2}
       propertyPath: m_Mass
       value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 90c6bf41fa13aea49b35615090813cc7, type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 90c6bf41fa13aea49b35615090813cc7, type: 2}
@@ -5737,14 +5747,16 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 478495656}
   m_GameObject: {fileID: 1522667462}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 695cd9ac49fd03748b2641ae007d907a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   BulletObject: {fileID: 100000, guid: eae982003cef71e4ca2e129d70c10906, type: 2}
+  GrenadeObject: {fileID: 0}
   ShootRate: .25
   IsSwimming: 0
+  GrenadeHeight: 50
 --- !u!195 &1522667467
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5903,8 +5915,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BulletObject: {fileID: 100000, guid: eae982003cef71e4ca2e129d70c10906, type: 2}
+  GrenadeObject: {fileID: 100000, guid: 34f9d1f8cb1278b44997380a56f59c24, type: 2}
   ShootRate: .25
   IsSwimming: 0
+  GrenadeHeight: 50
 --- !u!114 &1538095893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6270,8 +6284,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1618941885}
-  m_LocalRotation: {x: .191363588, y: .800087452, z: .461930782, w: -.331451386}
-  m_LocalPosition: {x: 86.0687714, y: -150.199905, z: 76.8966827}
+  m_LocalRotation: {x: .112122856, y: .871395946, z: .234983504, w: -.415788829}
+  m_LocalPosition: {x: 104.85141, y: -86.3458557, z: 64.6553345}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: 1f730bf7cd080ed4b9ce7fb4ecc98d8f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: CATRigHub001_A
+    100002: CATRigHub002_A
+    100004: CATRigHub003_A
+    100006: CATRigLArm1_A
+    100008: CATRigLArm2_A
+    100010: CATRigLArmCollarbone_A
+    100012: CATRigLArmDigit11_A
+    100014: CATRigLArmDigit21_A
+    100016: CATRigLArmDigit31_A
+    100018: CATRigLArmDigit41_A
+    100020: CATRigLArmDigit51_A
+    100022: CATRigLArmPalm_A
+    100024: CATRigLLeg1_A
+    100026: CATRigRArm1_A
+    100028: CATRigRArm2_A
+    100030: CATRigRArmCollarbone_A
+    100032: CATRigRArmDigit11_A
+    100034: CATRigRArmDigit21_A
+    100036: CATRigRArmDigit31_A
+    100038: CATRigRArmDigit41_A
+    100040: CATRigRArmDigit51_A
+    100042: CATRigRArmPalm_A
+    100044: CATRigRLeg1_A
+    100046: CATRigSpine1_A
+    100048: CATRigSpine2_A
+    100050: CATRigSpine3_A
+    100052: CATRigSpine_A
+    100054: //RootNode
+    400000: CATRigHub001_A
+    400002: CATRigHub002_A
+    400004: CATRigHub003_A
+    400006: CATRigLArm1_A
+    400008: CATRigLArm2_A
+    400010: CATRigLArmCollarbone_A
+    400012: CATRigLArmDigit11_A
+    400014: CATRigLArmDigit21_A
+    400016: CATRigLArmDigit31_A
+    400018: CATRigLArmDigit41_A
+    400020: CATRigLArmDigit51_A
+    400022: CATRigLArmPalm_A
+    400024: CATRigLLeg1_A
+    400026: CATRigRArm1_A
+    400028: CATRigRArm2_A
+    400030: CATRigRArmCollarbone_A
+    400032: CATRigRArmDigit11_A
+    400034: CATRigRArmDigit21_A
+    400036: CATRigRArmDigit31_A
+    400038: CATRigRArmDigit41_A
+    400040: CATRigRArmDigit51_A
+    400042: CATRigRArmPalm_A
+    400044: CATRigRLeg1_A
+    400046: CATRigSpine1_A
+    400048: CATRigSpine2_A
+    400050: CATRigSpine3_A
+    400052: CATRigSpine_A
+    400054: //RootNode
+    7400000: Walk
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 90
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CATRigHub001_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigLLeg1_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigRLeg1_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A/CATRigHub002_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A/CATRigHub002_A/CATRigLArmCollarbone_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A/CATRigHub002_A/CATRigLArmCollarbone_A/CATRigLArm1_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A/CATRigHub002_A/CATRigLArmCollarbone_A/CATRigLArm1_A/CATRigLArm2_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A/CATRigHub002_A/CATRigLArmCollarbone_A/CATRigLArm1_A/CATRigLArm2_A/CATRigLArmPalm_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A/CATRigHub002_A/CATRigLArmCollarbone_A/CATRigLArm1_A/CATRigLArm2_A/CATRigLArmPalm_A/CATRigLArmDigit11_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A/CATRigHub002_A/CATRigLArmCollarbone_A/CATRigLArm1_A/CATRigLArm2_A/CATRigLArmPalm_A/CATRigLArmDigit21_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A/CATRigHub002_A/CATRigLArmCollarbone_A/CATRigLArm1_A/CATRigLArm2_A/CATRigLArmPalm_A/CATRigLArmDigit31_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A/CATRigHub002_A/CATRigLArmCollarbone_A/CATRigLArm1_A/CATRigLArm2_A/CATRigLArmPalm_A/CATRigLArmDigit41_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A/CATRigHub002_A/CATRigLArmCollarbone_A/CATRigLArm1_A/CATRigLArm2_A/CATRigLArmPalm_A/CATRigLArmDigit51_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A/CATRigHub002_A/CATRigRArmCollarbone_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A/CATRigHub002_A/CATRigRArmCollarbone_A/CATRigRArm1_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A/CATRigHub002_A/CATRigRArmCollarbone_A/CATRigRArm1_A/CATRigRArm2_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A/CATRigHub002_A/CATRigRArmCollarbone_A/CATRigRArm1_A/CATRigRArm2_A/CATRigRArmPalm_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A/CATRigHub002_A/CATRigRArmCollarbone_A/CATRigRArm1_A/CATRigRArm2_A/CATRigRArmPalm_A/CATRigRArmDigit11_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A/CATRigHub002_A/CATRigRArmCollarbone_A/CATRigRArm1_A/CATRigRArm2_A/CATRigRArmPalm_A/CATRigRArmDigit21_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A/CATRigHub002_A/CATRigRArmCollarbone_A/CATRigRArm1_A/CATRigRArm2_A/CATRigRArmPalm_A/CATRigRArmDigit31_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A/CATRigHub002_A/CATRigRArmCollarbone_A/CATRigRArm1_A/CATRigRArm2_A/CATRigRArmPalm_A/CATRigRArmDigit41_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A/CATRigHub002_A/CATRigRArmCollarbone_A/CATRigRArm1_A/CATRigRArm2_A/CATRigRArmPalm_A/CATRigRArmDigit51_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A/CATRigHub002_A/CATRigSpine_A
+        weight: 1
+      - path: CATRigHub001_A/CATRigSpine1_A/CATRigSpine2_A/CATRigSpine3_A/CATRigHub002_A/CATRigSpine_A/CATRigHub003_A
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: CATRigHub001_A
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

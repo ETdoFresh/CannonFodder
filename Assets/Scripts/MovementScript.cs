@@ -19,11 +19,13 @@ public class MovementScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1") && !Input.GetButton("Fire2"))
+        int groundLayerMask = 1 << 9; // Ground Layer
+
+        if (Input.GetButton("Fire1") && !Input.GetButton("Fire2"))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-            if (Physics.Raycast(ray, out hit))
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity, groundLayerMask))
             {
                 Instantiate(Particle, hit.point, hit.transform.rotation);
                 _destination = hit.point;

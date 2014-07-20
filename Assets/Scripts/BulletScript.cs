@@ -6,26 +6,28 @@ public class BulletScript : MonoBehaviour
     public float LifeTime = 1f;
     public float BulletVelocity = 100f;
     public GameObject BulletExplosion;
+    private float _age = 0;
 
     // Use this for initialization
     void Start()
     {
         rigidbody.AddRelativeForce(0, 0, BulletVelocity, ForceMode.VelocityChange);
-        Invoke("OnBulletContact", LifeTime);
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        _age += Time.deltaTime;
+        if (_age > LifeTime)
+            DestroyBullet();
     }
 
     void OnCollisionEnter(Collision collision)
     {
-        OnBulletContact(collision);
+        DestroyBullet();
     }
 
-    void OnBulletContact(Collision collision)
+    void DestroyBullet()
     {
         Destroy(this.gameObject);
         if (BulletExplosion != null)

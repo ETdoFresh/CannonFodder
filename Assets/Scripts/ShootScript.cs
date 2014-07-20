@@ -6,6 +6,9 @@ public class ShootScript : MonoBehaviour
     public GameObject BulletObject;
     public GameObject GrenadeObject;
     public float ShootRate = 0.25f;
+    public float ShootDistanceFromGround = 2f;
+    public float ShootVariaion = 1f;
+    public float ShootDelay = 0;
     public bool IsSwimming = false;
     public float GrenadeHeight = 50f;
     private Animator _animator;
@@ -19,6 +22,9 @@ public class ShootScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetButtonDown("Fire2"))
+            _lastShootTime = -ShootDelay;
+
         _lastShootTime += Time.deltaTime;
         var isShooting = Input.GetButton("Fire2") && !IsSwimming;
 
@@ -26,9 +32,10 @@ public class ShootScript : MonoBehaviour
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
+            int groundLayerMask = 1 << 9;
 
             float y = transform.position.y;
-            if (Physics.Raycast(ray, out hit))
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity, groundLayerMask))
                 transform.LookAt(new Vector3(hit.point.x, y, hit.point.z));
 
             var offset = hit.point - transform.position;
@@ -37,13 +44,23 @@ public class ShootScript : MonoBehaviour
             if (_lastShootTime >= ShootRate)
             {
                 _lastShootTime = 0;
-                if (Physics.Raycast(ray, out hit))
+                if (Physics.Raycast(ray, out hit, Mathf.Infinity, groundLayerMask))
                 {
-                    Instantiate(BulletObject, transform.position + offset, Quaternion.LookRotation(hit.point - transform.position));
+                    var variation = new Vector3(Random.Range(-ShootVariaion, ShootVariaion),
+                           Random.Range(-ShootVariaion, ShootVariaion), Random.Range(-ShootVariaion, ShootVariaion));
+                    hit.point += variation;
+                    hit.point += new Vector3(0, ShootDistanceFromGround, 0);
+                    GameObject bullet = Instantiate(BulletObject, transform.position + offset, Quaternion.LookRotation(hit.point - transform.position)) as GameObject;
+                    
+                    foreach (GameObject player in GameObject.FindGameObjectsWithTag("Player"))
+                        Physics.IgnoreCollision(bullet.collider, player.collider);
+
+                    foreach (GameObject playerBullet in GameObject.FindGameObjectsWithTag("PlayerBullet"))
+                        Physics.IgnoreCollision(bullet.collider, playerBullet.collider);
                 }
             }
 
-            if (Input.GetButtonDown("Fire1"))
+            if (Input.GetButtonDown("Fire1") && GrenadeObject != null)
             {
                 GameObject grenade = Instantiate(GrenadeObject, transform.position + offset, Quaternion.LookRotation(hit.point - transform.position)) as GameObject;
                 var distance = (transform.position - hit.point).magnitude;
@@ -51,6 +68,12 @@ public class ShootScript : MonoBehaviour
                 var newTarget = grenade.transform.position + offset.normalized * Mathf.Min(distance, MAXDISTANCE);
                 Vector3 velocity = findInitialVelocity(grenade.transform.position, newTarget, GrenadeHeight);
                 grenade.rigidbody.AddForce(velocity, ForceMode.VelocityChange);
+
+                foreach (GameObject player in GameObject.FindGameObjectsWithTag("Player"))
+                    Physics.IgnoreCollision(grenade.collider, player.collider);
+
+                foreach (GameObject playerBullet in GameObject.FindGameObjectsWithTag("PlayerBullet"))
+                    Physics.IgnoreCollision(grenade.collider, playerBullet.collider);
             }
         }
 

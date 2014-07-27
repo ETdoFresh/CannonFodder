@@ -7,6 +7,7 @@ public class MovementScript : MonoBehaviour
     
     private Vector3 _destination;
     private NavMeshAgent _agent;
+    public RAIN.Navigation.Targets.NavigationTarget NavTarget;
     private Animator _animator;
 
     // Use this for initialization
@@ -30,6 +31,9 @@ public class MovementScript : MonoBehaviour
                 Instantiate(Particle, hit.point, hit.transform.rotation);
                 _destination = hit.point;
                 _agent.SetDestination(_destination);
+                
+                if (NavTarget != null)
+                    NavTarget.Position = _destination;
             }
         }
 

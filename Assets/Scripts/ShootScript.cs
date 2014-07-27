@@ -41,7 +41,7 @@ public class ShootScript : MonoBehaviour
             var offset = hit.point - transform.position;
             offset = offset.normalized * 5;
 
-            if (_lastShootTime >= ShootRate)
+            if (_lastShootTime >= ShootRate && false )
             {
                 _lastShootTime = 0;
                 if (Physics.Raycast(ray, out hit, Mathf.Infinity, groundLayerMask))

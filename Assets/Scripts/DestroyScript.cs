@@ -3,10 +3,14 @@ using System.Collections;
 
 public class DestroyScript : MonoBehaviour
 {
-    public float DestroyTime = 1f;
+    public float DestroyLife = 1f;
+    public float DestroyAge = 0f;
 
-    void Awake()
+    void Update()
     {
-        Destroy(gameObject, DestroyTime);
+        DestroyAge += Time.deltaTime;
+
+        if (DestroyAge >= DestroyLife)
+            Destroy(gameObject);
     }
 }

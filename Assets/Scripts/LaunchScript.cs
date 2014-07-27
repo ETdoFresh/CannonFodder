@@ -19,6 +19,29 @@ public class LaunchScript : MonoBehaviour
 
     void Awake()
     {
+        var yForceMin = YForceMin;
+        YForceMin = YForceMax;
+
+        Launch(); // Max Launch
+
+        YForceMin = yForceMin;
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "PlayerBullet")
+        {
+            Launch();
+            
+            // Reset Age on Destroy Script
+            var destroyScript = GetComponentInParent<DestroyScript>();
+            if (destroyScript != null)
+                destroyScript.DestroyAge = 0f;
+        }
+    }
+
+    void Launch()
+    {
         var xForce = Random.Range(XForceMin, XForceMax);
         var yForce = Random.Range(YForceMin, YForceMax);
         var zForce = Random.Range(ZForceMin, ZForceMax);
@@ -27,7 +50,7 @@ public class LaunchScript : MonoBehaviour
         var yTorque = Random.Range(YTorqueMin, YTorqueMax);
         var zTorque = Random.Range(ZTorqueMin, ZTorqueMax);
 
-        rigidbody.AddRelativeForce(xForce, yForce, zForce, ForceMode);
+        rigidbody.AddForce(xForce, yForce, zForce, ForceMode);
         rigidbody.AddRelativeTorque(xTorque, yTorque, zTorque, ForceMode);
     }
 }

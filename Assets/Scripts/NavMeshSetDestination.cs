@@ -21,7 +21,8 @@ public class NavMeshSetDestination : MonoBehaviour
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+            int groundLayerMask = 1 << 9;
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity, groundLayerMask))
             {
                 if (_navMeshAgent)
                     _navMeshAgent.SetDestination(hit.point);

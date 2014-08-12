@@ -6,38 +6,35 @@ public class LaunchScript : MonoBehaviour
     public ForceMode ForceMode = ForceMode.VelocityChange;
     public float XForceMin = 0f;
     public float XForceMax = 0f;
-    public float YForceMin = 100f;
-    public float YForceMax = 100f;
+    public float YForceMin = 10f;
+    public float YForceMax = 30f;
     public float ZForceMin = 0f;
     public float ZForceMax = 0f;
-    public float XTorqueMin = 20f;
-    public float XTorqueMax = 50f;
-    public float YTorqueMin = 20f;
-    public float YTorqueMax = 50f;
-    public float ZTorqueMin = 20f;
-    public float ZTorqueMax = 50f;
+    public float XTorqueMin = 0f;
+    public float XTorqueMax = 360f;
+    public float YTorqueMin = 0f;
+    public float YTorqueMax = 360f;
+    public float ZTorqueMin = 0f;
+    public float ZTorqueMax = 360f;
+
+    private Rigidbody _rigidbody;
 
     void Awake()
     {
-        var yForceMin = YForceMin;
-        YForceMin = YForceMax;
-
-        Launch(); // Max Launch
-
-        YForceMin = yForceMin;
+        _rigidbody = rigidbody ? rigidbody : GetComponentInChildren<Rigidbody>();
+        Launch();
     }
 
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "PlayerBullet")
-        {
             Launch();
-            
-            // Reset Age on Destroy Script
-            var destroyScript = GetComponentInParent<DestroyScript>();
-            if (destroyScript != null)
-                destroyScript.DestroyAge = 0f;
-        }
+    }
+
+    void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag == "PlayerBullet")
+            Launch();
     }
 
     void Launch()
@@ -50,7 +47,12 @@ public class LaunchScript : MonoBehaviour
         var yTorque = Random.Range(YTorqueMin, YTorqueMax);
         var zTorque = Random.Range(ZTorqueMin, ZTorqueMax);
 
-        rigidbody.AddForce(xForce, yForce, zForce, ForceMode);
-        rigidbody.AddRelativeTorque(xTorque, yTorque, zTorque, ForceMode);
+        _rigidbody.AddForce(xForce, yForce, zForce, ForceMode);
+        _rigidbody.AddRelativeTorque(xTorque, yTorque, zTorque, ForceMode);
+
+        // Reset Age on Destroy Script
+        var destroyScript = GetComponentInParent<DestroyScript>();
+        if (destroyScript != null)
+            destroyScript.DestroyAge = 0f;
     }
 }

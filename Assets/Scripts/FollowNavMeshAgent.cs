@@ -3,6 +3,10 @@ using System.Collections;
 
 public class FollowNavMeshAgent : MonoBehaviour
 {
+    public bool DebugShowRigidBodyVelocity;
+    public bool DebugShowNavMeshAgentVelocity;
+    public bool DebugShowNavMeshAgentDesiredVelocity;
+
     private NavMeshAgent _navMeshAgent;
     private Animator _animator;
     private Vector3 rootMotionVelocity;
@@ -26,9 +30,12 @@ public class FollowNavMeshAgent : MonoBehaviour
         var speedVector = _navMeshAgent.velocity.normalized * speed;
         rigidbody.velocity = new Vector3(speedVector.x, fallingSpeed, speedVector.z);
 
-        Debug.DrawLine(rigidbody.transform.position, rigidbody.transform.position + rigidbody.velocity + Vector3.up * .2f, Color.red);
-        Debug.DrawLine(_navMeshAgent.transform.position, _navMeshAgent.velocity + _navMeshAgent.transform.position + Vector3.up * .3f, Color.blue);
-        Debug.DrawLine(_navMeshAgent.transform.position, _navMeshAgent.desiredVelocity + _navMeshAgent.transform.position + Vector3.up * .4f, Color.green);
+        if (DebugShowRigidBodyVelocity)
+            Debug.DrawLine(rigidbody.transform.position, rigidbody.transform.position + rigidbody.velocity + Vector3.up * .2f, Color.red);
+        if (DebugShowNavMeshAgentVelocity)
+            Debug.DrawLine(_navMeshAgent.transform.position, _navMeshAgent.velocity + _navMeshAgent.transform.position + Vector3.up * .3f, Color.blue);
+        if (DebugShowNavMeshAgentDesiredVelocity)
+            Debug.DrawLine(_navMeshAgent.transform.position, _navMeshAgent.desiredVelocity + _navMeshAgent.transform.position + Vector3.up * .4f, Color.green);
     }
 
     void OnAnimatorMove()

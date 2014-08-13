@@ -833,11 +833,12 @@ MonoBehaviour:
   GrenadeObject: {fileID: 0}
   ShootRate: .25
   ShootDistanceFromGround: .600000024
-  ShootTargetFromGround: 0
+  ShootTargetFromGround: -.300000012
   ShootVariaion: .100000001
   ShootDelay: .125
   IsSwimming: 0
   GrenadeHeight: 50
+  ResetTimeOnMouseDown: 1
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1

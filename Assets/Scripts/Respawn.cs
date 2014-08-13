@@ -17,6 +17,13 @@ public class Respawn : MonoBehaviour {
             rigidbody.velocity = Vector3.zero;
             rigidbody.angularVelocity = Vector3.zero;
 
+            if (tag == "Enemy")
+            {
+                var fallThroughGround = GetComponent<FallThroughGround>();
+                if (fallThroughGround != null)
+                    fallThroughGround.Reset();
+            }
+
             var navMeshAgent = GetComponentInChildren<NavMeshAgent>();
             if (navMeshAgent != null)
                 navMeshAgent.destination = StartPosition;

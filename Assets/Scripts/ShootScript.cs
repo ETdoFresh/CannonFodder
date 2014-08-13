@@ -12,6 +12,7 @@ public class ShootScript : MonoBehaviour
     public float ShootDelay = 0;
     public bool IsSwimming = false;
     public float GrenadeHeight = 50f;
+    public bool ResetTimeOnMouseDown = true;
     private Animator _animator;
     private float _lastShootTime = 99f;
 
@@ -23,7 +24,7 @@ public class ShootScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire2"))
+        if (Input.GetButtonDown("Fire2") && ResetTimeOnMouseDown)
             _lastShootTime = -ShootDelay;
 
         _lastShootTime += Time.deltaTime;

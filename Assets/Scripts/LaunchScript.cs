@@ -17,11 +17,11 @@ public class LaunchScript : MonoBehaviour
     public float ZTorqueMin = 0f;
     public float ZTorqueMax = 360f;
 
-    private Rigidbody _rigidbody;
+    private Rigidbody[] _rigidbodies;
 
     void Awake()
     {
-        _rigidbody = rigidbody ? rigidbody : GetComponentInChildren<Rigidbody>();
+        _rigidbodies = GetComponentsInChildren<Rigidbody>();
         Launch();
     }
 
@@ -47,8 +47,11 @@ public class LaunchScript : MonoBehaviour
         var yTorque = Random.Range(YTorqueMin, YTorqueMax);
         var zTorque = Random.Range(ZTorqueMin, ZTorqueMax);
 
-        _rigidbody.AddForce(xForce, yForce, zForce, ForceMode);
-        _rigidbody.AddRelativeTorque(xTorque, yTorque, zTorque, ForceMode);
+        foreach (Rigidbody rigidbody in _rigidbodies)
+        {
+            rigidbody.AddForce(xForce, yForce, zForce, ForceMode);
+            rigidbody.AddRelativeTorque(xTorque, yTorque, zTorque, ForceMode);
+        }
 
         // Reset Age on Destroy Script
         var destroyScript = GetComponentInParent<DestroyScript>();

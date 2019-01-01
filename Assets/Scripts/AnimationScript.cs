@@ -16,9 +16,9 @@ public class AnimationScript : MonoBehaviour
     {
         if (animator)
         {
-            if (rigidbody != null)
+            if (GetComponent<Rigidbody>() != null)
             {
-                animator.SetFloat("Speed", rigidbody.velocity.magnitude);
+                animator.SetFloat("Speed", GetComponent<Rigidbody>().velocity.magnitude);
             }
         }
     }

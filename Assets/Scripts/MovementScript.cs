@@ -6,14 +6,14 @@ public class MovementScript : MonoBehaviour
     public GameObject Particle;
     
     private Vector3 _destination;
-    private NavMeshAgent _agent;
+    private UnityEngine.AI.NavMeshAgent _agent;
     public RAIN.Navigation.Targets.NavigationTarget NavTarget;
     private Animator _animator;
 
     // Use this for initialization
     void Start()
     {
-        _agent = GetComponent<NavMeshAgent>();
+        _agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         _animator = GetComponent<Animator>();
     }
 

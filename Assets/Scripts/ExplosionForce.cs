@@ -14,9 +14,9 @@ public class ExplosionForce : MonoBehaviour
         Collider[] colliders = Physics.OverlapSphere(explosionPosition, ExplosionRadius);
         foreach (Collider hit in colliders)
         {
-            if (hit && hit.rigidbody)
+            if (hit && hit.GetComponent<Rigidbody>())
             {
-                hit.rigidbody.AddExplosionForce(ExplosionPower, explosionPosition, ExplosionRadius, ExplosionUpForce, ForceMode.Impulse);
+                hit.GetComponent<Rigidbody>().AddExplosionForce(ExplosionPower, explosionPosition, ExplosionRadius, ExplosionUpForce, ForceMode.Impulse);
             }
         }
     }

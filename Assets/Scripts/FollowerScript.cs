@@ -5,15 +5,15 @@ public class FollowerScript : MonoBehaviour {
 
     public GameObject Destination;
 
-    private NavMeshAgent _agent;
+    private UnityEngine.AI.NavMeshAgent _agent;
 
     // Use this for initialization
     void Start()
     {
-        _agent = GetComponent<NavMeshAgent>();
+        _agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         
         if (_agent == null)
-            _agent = GetComponentInChildren<NavMeshAgent>();
+            _agent = GetComponentInChildren<UnityEngine.AI.NavMeshAgent>();
     }
 
     // Update is called once per frame

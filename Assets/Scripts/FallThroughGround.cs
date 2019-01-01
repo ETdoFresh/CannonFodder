@@ -17,7 +17,7 @@ public class FallThroughGround : MonoBehaviour
 
         // Usually if children have collider, parent collider is trigger
         if (_childColliders.Length > 1)
-            collider.isTrigger = true;
+            GetComponent<Collider>().isTrigger = true;
     }
 
     void Awake()

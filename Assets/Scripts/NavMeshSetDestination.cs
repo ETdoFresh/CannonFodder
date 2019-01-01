@@ -8,11 +8,11 @@ public class NavMeshSetDestination : MonoBehaviour
     // == Collider on Ground
     // == NavMeshAgent
 
-    private NavMeshAgent _navMeshAgent;
+    private UnityEngine.AI.NavMeshAgent _navMeshAgent;
 
     void Awake()
     {
-        _navMeshAgent = GetComponent<NavMeshAgent>();
+        _navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
 
     void Update()

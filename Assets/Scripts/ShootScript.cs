@@ -53,11 +53,11 @@ public class ShootScript : MonoBehaviour
                     GameObject bullet = Instantiate(BulletObject, transform.position + Vector3.up * ShootDistanceFromGround, Quaternion.LookRotation(hit.point - transform.position)) as GameObject;
                     
                     foreach (GameObject player in GameObject.FindGameObjectsWithTag("Player"))
-                        Physics.IgnoreCollision(bullet.collider, player.collider);
+                        Physics.IgnoreCollision(bullet.GetComponent<Collider>(), player.GetComponent<Collider>());
 
                     foreach (GameObject playerBullet in GameObject.FindGameObjectsWithTag("PlayerBullet"))
-                        if (bullet.collider != playerBullet.collider)
-                            Physics.IgnoreCollision(bullet.collider, playerBullet.collider);
+                        if (bullet.GetComponent<Collider>() != playerBullet.GetComponent<Collider>())
+                            Physics.IgnoreCollision(bullet.GetComponent<Collider>(), playerBullet.GetComponent<Collider>());
                 }
             }
 
@@ -68,13 +68,13 @@ public class ShootScript : MonoBehaviour
                 const float MAXDISTANCE = 100f;
                 var newTarget = grenade.transform.position * Mathf.Min(distance, MAXDISTANCE);
                 Vector3 velocity = findInitialVelocity(grenade.transform.position, newTarget, GrenadeHeight);
-                grenade.rigidbody.AddForce(velocity, ForceMode.VelocityChange);
+                grenade.GetComponent<Rigidbody>().AddForce(velocity, ForceMode.VelocityChange);
 
                 foreach (GameObject player in GameObject.FindGameObjectsWithTag("Player"))
-                    Physics.IgnoreCollision(grenade.collider, player.collider);
+                    Physics.IgnoreCollision(grenade.GetComponent<Collider>(), player.GetComponent<Collider>());
 
                 foreach (GameObject playerBullet in GameObject.FindGameObjectsWithTag("PlayerBullet"))
-                    Physics.IgnoreCollision(grenade.collider, playerBullet.collider);
+                    Physics.IgnoreCollision(grenade.GetComponent<Collider>(), playerBullet.GetComponent<Collider>());
             }
         }
 

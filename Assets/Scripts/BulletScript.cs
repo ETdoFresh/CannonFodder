@@ -11,7 +11,7 @@ public class BulletScript : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        rigidbody.AddRelativeForce(0, 0, BulletVelocity, ForceMode.VelocityChange);
+        GetComponent<Rigidbody>().AddRelativeForce(0, 0, BulletVelocity, ForceMode.VelocityChange);
     }
 
     // Update is called once per frame
